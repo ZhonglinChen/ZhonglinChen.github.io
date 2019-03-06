@@ -1,0 +1,62 @@
+<!--
+1.将span标签改为inline-block显示样式，并且为其设置背景色black、文字颜色white、高度50px、宽度100px
+2.编写两个div标签，一个div标签为红色1px实线边框，另一个div为黑色1px实线边框。高度和宽度均设置为200px，并要求这两个div左右并排放置在一起。
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		CSS2_Practice
+	</title>
+	<style>
+		/*
+		https://stackoverflow.com/questions/41635618/how-to-extend-css-class-with-another-style
+		.div0
+		{
+			height:200px;
+			width:200px;
+			float:left;
+
+		}
+		.div1
+		{
+			.extend div0;
+			border:1px solid red;
+		}
+		.div2
+		{
+			.extend div0;
+			border:1px solid black;
+		}
+		*/
+		
+		.div1{
+			
+			height:200px;
+			width:200px;
+			float:left;
+			border:1px solid red;
+		
+		}
+		.div2{
+			height:200px;
+			width:200px;
+			float:left;
+			border:1px solid black;
+		
+		}
+	</style>
+</head>
+<body>
+	<span style="display: block; background: black; color: white; width:50px; height:100px">this is a span</span>
+
+	<div class="div1" >
+		this is the div1
+	</div>
+
+	<div class="div2">
+		this is the div2
+	</div>
+</body>
+</html>
