@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS3_Demo</title>
+
+	<style type="text/css">
+		span{
+			color:red;
+		}
+		div{
+			border:1px red solid;
+		}
+		#myspan
+		{
+			background-color: green;
+		}
+		div .span_class
+		{
+			background-color:yellow;
+		}
+
+
+	*{
+			text-decoration:underline;
+		}
+		/*分别对div元素和P元素生效*/
+		div,p
+		{
+			color:red;
+		}
+
+		/*凡是被包含在div元素中的p元素都生效，不管p是不是div的子元素*/
+		div p
+		{
+			color: blue;
+		}
+
+		/*仅仅只针对p元素是div的子元素这种情况发生*/
+		div > p 
+		{
+			color:chartreuse;
+		}
+
+		/*仅仅只针对紧跟div元素后面的兄弟节点为p元素生效*/
+		div + p
+		{
+			color:black;
+		}
+		/*针对div元素后面所有兄弟p元素均生效*/
+		div ~ p
+		{
+			color:yellow;
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="div1" style=""> this is div1</div>
+	<div class="div2"> this is div2</div>
+	<img src="#"  style ="width:200px"/>
+	<span id="myspan">this is span1</span>
+	<div>
+		<span class="span_class">this is span2</span>
+		<span class="span_class">this is span3</span>
+	</div>
+
+	<span class="span_class">this is span4</span>
+	<span>this is span5</span>
+	<span>this is span6</span>
+
+
+	<div><span>this is text in div</span></div>
+	<p><h1> this is heading1 </h1></p>
+
+
+	<div>
+		<span>
+			<p> this is text in the span </p>
+		</span>
+	</div>
+
+	<div>
+		<p>this is text in p</p>
+
+	</div>
+	<a href="#"> this is a link</a>
+	<p>this is p after link</p>
+	<p>this is p after p</p>
+</body>
+</html>
