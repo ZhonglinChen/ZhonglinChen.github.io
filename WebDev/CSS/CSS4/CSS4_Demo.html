@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS4_Demo</title>
+	<style>
+	/*pseudo-class*/
+		p:first-child
+		{
+			color:red;
+		}
+		p:last-child{
+			text-decoration: underline
+		}
+		p:nth-child(3){
+			background:red;
+		}
+		/**先定义未访问时link和访问后visited的样式**/
+		a:link, a:visited{
+			color:blue;
+			text-decoration:none;
+		}
+		/**再定义鼠标悬空hover和点击链接时active **/
+		a:active, a:hover{
+			color:yellow;
+			text-decoration:underline;
+		}
+		a.mylink:hover{/*m没有空格*/
+			color:green;
+		}
+
+		/*pseudo-element*/
+		p::first-letter
+		{
+			color:red;
+		}
+		p:first-line
+		{
+			color:blue;
+		}
+		p::after{
+			content:url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+		}
+
+		/*
+		p::before
+		{
+			content:url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+		}
+		*/
+		span:selection{
+			background:green;
+		}
+
+		p. intro::first-letter
+		{
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<span>this is a span</span>
+	<p>this is a p1 red</p>
+	<p class="intro">this is a p1 intro</p>
+	<p><span>this is a text in span</span></p>
+	<p>this should be red </p>
+	<a class="mylink" href="#">this is another</a><br>
+	<a href="#">this is a link</a>
+	<p>this should be a underline</p>
+
+</body>
+</html>
