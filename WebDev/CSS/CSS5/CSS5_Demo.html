@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <style>
+        input[type=text]
+        {
+        background:red;
+        }
+        a[target=_blank]
+        {
+        text-decoration:none;
+        }
+
+
+        /*Important*/
+        .importantclass{
+        color: blue !important;
+        }
+
+        /*IDs*/
+        #demo{
+            color:red;
+        }
+
+        /*class*/
+        .myclass{
+            color:green;
+            }
+
+
+        /*element*/
+        p{
+            color:blue;
+            }
+
+
+        p::first-letter{
+        color:black;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    please input your name:<input type="text" value=""/>
+    <br>
+    please input your password:<input type="password"/>
+    <br>
+    please input your address:<input type="text"/>
+    <br>
+
+    <a href="#">this is a link</a><br>
+    <a target="_blank" href="#">this is a link with target</a>
+
+    <p id="demo" class="importantclass" style="color:orange">this is a p</p>
+    <p id="demo" class="myclass" style="color:orange">this is a p</p>
+    <p id="demo" class="myclass" >this is a p</p>
+    <p class="myclass" >this is a p</p>
+    <p >this is a p</p>
+</body>
+</html>
