@@ -1,0 +1,78 @@
+#header{
+    width:100%;
+    margin: 0 auto;
+    text-align:center;
+
+}
+
+#header .title{
+    font:50px bold Arial;
+    color:lightblue;
+    margin: 0 auto;
+
+
+
+}
+
+#header .auther{
+    font-size: 15px;
+    margin:0 auto;
+    padding-left:30%;
+
+
+}
+
+#header .wrapper{
+    display:flex;
+    justify-content:space-around;
+    width:300px;
+    margin:5px auto;
+
+
+
+}
+#header .score-wrapper{
+
+    width:100px;
+    background-color:lightblue;
+    padding:5px;
+    border-radius:6px;
+
+}
+#header .newgame-wrapper #newGame{
+
+    width:100px;
+    display:block;
+
+    background-color:lightblue;
+    text-decoration:none;
+    padding:6px;
+    border-radius:6px;
+    color:#fff;
+
+}
+#header .newgame-wrapper #newGame:hover{
+
+    background-color:#badde8;
+}
+
+#grid-container
+{
+    height:480px;
+    width:480px;
+    padding:10px;
+    background-color:lightblue;
+    margin : 25px auto;
+    border-radius: 10px;
+    position:relative;
+}
+
+#grid-container .grid-cell{
+    background-color:lightskyblue;
+    height:100px;
+    width:100px;
+    float:left;
+    border-radius:6px;
+    position:absolute;
+
+}

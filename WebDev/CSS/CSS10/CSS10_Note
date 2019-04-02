@@ -1,0 +1,35 @@
+CSS Form Formating
+
+setting width for input
+-use the width property to determine the width of input field:
+    input{
+
+        width:100;
+    }
+
+
+Use attribute selectors to style specific input style
+-input[type=text] - will only select text fields
+-input[type=password] -wll only select password fields
+-input[type=number] - will only select number fields
+
+Padding and margin with inputs
+-use the padding and margin property to add space inside(padding)and outside(margin) the text field;
+
+<style>
+    input[type=text]{
+
+        width:100%;
+        padding:15px 20px;
+        margin:8px 0;
+
+    }
+
+
+</style>
+
+Bordered Inputs
+-Use the border property to change
+
+Focused Inputs
+Use the :focus selector to do something with the input
