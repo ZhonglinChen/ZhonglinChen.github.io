@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS10/CSS10_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS10/CSS10_Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS10/CSS10_Practice2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS11/CSS11_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Notes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS7/CSS7_Notes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS7/CSS7_Practice1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS7/CSS7_Practice2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS7/CSS7_Practice3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS8/CSS8_Practice1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS8/CSS8_Practice2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS9/CSS9_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS9/CSS9_Practice2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS9/CSS9_Practice3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS0/JS0_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject/2048/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject/2048/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject/2048/js/animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject/2048/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject/2048/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject/2048/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS12/CSS12_Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS12/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS13/CSS13_Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Note.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,67 +32,57 @@
     <favorites_list name="ZhonglinChen.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/WebProject/2048/note">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/WebDev/JS0/JS0_Demo.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/WebProject/2048/js/main.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/WebProject/2048/js/animation.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/WebProject/2048/js/common.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/WebProject/2048/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="705">
-                  <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/WebProject/2048/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Notes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Practice2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebDev/JS0/JS0_Demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Note.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,11 +135,18 @@
         <option value="$PROJECT_DIR$/WebProject/2048/index.html" />
         <option value="$PROJECT_DIR$/WebProject/2048/note" />
         <option value="$PROJECT_DIR$/WebDev/JS0/JS0_Demo.html" />
+        <option value="$PROJECT_DIR$/WebDev/CSS/CSS12/CSS12_Demo.html" />
+        <option value="$PROJECT_DIR$/WebDev/CSS/CSS13/CSS13_Demo.html" />
+        <option value="$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Notes" />
+        <option value="$PROJECT_DIR$/WebDev/CSS/CSS14/CSS_Demo.html" />
+        <option value="$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Practice2.html" />
+        <option value="$PROJECT_DIR$/WebDev/CSS/CSS15.html" />
+        <option value="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Note.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
+    <option name="width" value="821" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -184,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,6 +180,27 @@
               <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
               <item name="JS0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,25 +214,17 @@
               <item name="WebProject" type="462c0819:PsiDirectoryNode" />
               <item name="2048" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="WebProject" type="462c0819:PsiDirectoryNode" />
-              <item name="2048" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebDev/CSS/CSS12" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -246,9 +233,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebDev/CSS/CSS15" />
       <recent name="$PROJECT_DIR$/WebDev/CSS/CSS10" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebDev/CSS/CSS12" />
       <recent name="$PROJECT_DIR$/WebDev/CSS/CSS6" />
     </key>
   </component>
@@ -264,21 +253,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JS0_Demo.html">
-    <configuration name="CSS11_Demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/CSS/CSS11/CSS11_Demo.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.CSS15_Note.html">
+    <configuration name="CSS12_Demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/CSS/CSS12/CSS12_Demo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="CSS14_Demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/CSS/CSS14/CSS14_Demo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="CSS14_Practice2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/CSS/CSS14/CSS14_Practice2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="CSS15_Note.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/CSS/CSS15/CSS15_Note.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="JS0_Demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS0/JS0_Demo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebProject/2048/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.CSS15_Note.html" />
+        <item itemvalue="JavaScript Debug.CSS14_Practice2.html" />
+        <item itemvalue="JavaScript Debug.CSS14_Demo.html" />
+        <item itemvalue="JavaScript Debug.CSS12_Demo.html" />
         <item itemvalue="JavaScript Debug.JS0_Demo.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.CSS11_Demo.html" />
       </list>
     </recent_temporary>
   </component>
@@ -295,14 +292,17 @@
       <workItem from="1554025318624" duration="248000" />
       <workItem from="1554025589359" duration="4263000" />
       <workItem from="1554087660403" duration="950000" />
-      <workItem from="1554112195867" duration="975000" />
+      <workItem from="1554112195867" duration="2812000" />
+      <workItem from="1554677339017" duration="342000" />
+      <workItem from="1554763930972" duration="5218000" />
+      <workItem from="1554862521313" duration="510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6436000" />
+    <option name="totallyTimeSpent" value="14343000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -312,23 +312,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="821" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49748743" visible="true" weight="0.1892552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49748743" visible="true" weight="0.25417203" />
       <window_info id="Structure" order="1" sideWeight="0.5025126" side_tool="true" weight="0.2792128" />
       <window_info id="Favorites" order="2" sideWeight="0.5025126" side_tool="true" weight="0.2792128" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25408164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49815497" weight="0.30153847" />
-      <window_info anchor="bottom" x="846" y="435" width="834" height="179" id="Terminal" order="7" sideWeight="0.49815497" weight="0.16632654" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49815497" weight="0.3010204" />
+      <window_info anchor="bottom" x="846" y="435" width="834" height="179" id="Terminal" order="7" sideWeight="0.49815497" weight="0.23571429" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501845" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32923076" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32923076" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32850778" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.327551" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -551,13 +551,6 @@
     <entry file="file://$PROJECT_DIR$/WebProject/2048/js/common.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebProject/2048/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebProject/2048/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -572,10 +565,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebProject/2048/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS7/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS12/CSS12_Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS13/CSS13_Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Practice2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebDev/JS0/JS0_Demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>

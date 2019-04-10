@@ -1,0 +1,10 @@
+position property
+
+使原对象脱离文档流
+
+
+static: defalult
+fixed:
+relative
+absolute
+sticky
