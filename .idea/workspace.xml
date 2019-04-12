@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/WebProject/Bilibili/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Practice_Q2_Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Practice_Q2_Menu.html" afterDir="false" />
-    </list>
+    <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebProject/Bilibili/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27375">
-              <caret line="1825" column="24" lean-forward="true" selection-start-line="1825" selection-start-column="24" selection-end-line="1825" selection-end-column="24" />
+            <state relative-caret-position="-17969">
+              <caret line="848" column="24" lean-forward="true" selection-start-line="848" selection-start-column="24" selection-end-line="848" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -219,10 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.CSS15_Practice_Q2_Menu.html">
-    <configuration name="CSS15_Demo3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/CSS/CSS15/CSS15_Demo3.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="CSS15_Demo4_Position_ZIndex.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/CSS/CSS15/CSS15_Demo4_Position_ZIndex.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -235,13 +228,16 @@
     <configuration name="CSS15_Practice_Q2_Menu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/CSS/CSS15/CSS15_Practice_Q2_Menu.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebProject/Bilibili/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.CSS15_Practice_Q2_Menu.html" />
         <item itemvalue="JavaScript Debug.CSS15_Demo_Menu.html" />
         <item itemvalue="JavaScript Debug.CSS15_Practice_Q2_Menu2.html" />
         <item itemvalue="JavaScript Debug.CSS15_Demo4_Position_ZIndex.html" />
-        <item itemvalue="JavaScript Debug.CSS15_Demo3.html" />
       </list>
     </recent_temporary>
   </component>
@@ -263,12 +259,12 @@
       <workItem from="1554763930972" duration="5218000" />
       <workItem from="1554862521313" duration="4834000" />
       <workItem from="1554870524218" duration="11798000" />
-      <workItem from="1554961494379" duration="22000" />
+      <workItem from="1554961494379" duration="180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30487000" />
+    <option name="totallyTimeSpent" value="30645000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -283,7 +279,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49748743" visible="true" weight="0.12332112" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49748743" visible="true" weight="0.12332112" />
       <window_info id="Structure" order="1" sideWeight="0.5025126" side_tool="true" weight="0.2792128" />
       <window_info id="Favorites" order="2" sideWeight="0.5025126" side_tool="true" weight="0.2792128" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -653,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebProject/Bilibili/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27375">
-          <caret line="1825" column="24" lean-forward="true" selection-start-line="1825" selection-start-column="24" selection-end-line="1825" selection-end-column="24" />
+        <state relative-caret-position="-17969">
+          <caret line="848" column="24" lean-forward="true" selection-start-line="848" selection-start-column="24" selection-end-line="848" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
