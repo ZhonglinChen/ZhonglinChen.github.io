@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS9&JS10_Practice</title>
+    <script>
+        //1.用JS封装一个随机数生成函数getRandom(a, b)，这个函数接受两个参数a，b，getRandom可以a到b之间的随机整数。（注意：要用到Math.random和Math.floor函数）
+        function getRandom(a, b) {
+            var top,flo;
+            if(a>b)
+            {
+                top=a;
+                flo=b;
+            }
+            else{
+                top=b;
+                flo=a;
+            }
+
+            return Math.floor(Math.random() * (top-flo+1)) + flo;
+        }
+
+        //2. 给定一个字符串"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"，要求编写一个函数makeid，这个函数能够从给定字符串中随机选取一些字母生成一个指定长度的字符串，长度由参数l表示。
+        function makeid(str, l) {
+            var newID = "";
+
+            for (var i = 0; i < l; i++) {
+
+                newID += str.charAt(getRandom(0, str.length));
+                // console.log(newID);
+            }
+            return newID;
+
+        }
+
+        var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        var l = 10;
+        console.log("Input1 string: " + str);
+        console.log("Input2 len: " + l);
+        console.log("Randomly generated ID: " + makeid(str, l));
+
+
+        //3. 根据下列信息在JS中用课程中老师讲的几种方法创建一个student对象
+        // 姓名：James，性别：Male，班级：Class9，年龄： 24
+        // 并输出这个对象的各个属性值。
+        var student = new Object();
+        student.name = "James";
+        student.gender = "Male";
+        student.class = "Class9";
+        student.age = 24;
+        console.log(student.name + " " + student.gender + " " + student.class + " " + student.age);
+
+        var student = Object();
+        student.name = "James";
+        student.gender = "Male";
+        student.class = "Class9";
+        student.age = 24;
+        console.log(student.name + " " + student.gender + " " + student.class + " " + student.age);
+
+        var student = {name: "James", gender: "Male", class: "Class9", age: 24};
+        console.log(student.name + " " + student.gender + " " + student.class + " " + student.age);
+
+
+        //4为第一题创建的对象创建一个onClass方法，这个方法接受一个字符串为参数，输出"xxx在上课"这段话。创建好后再调用这个方法，将第一题创建的对象的姓名作为参数。
+        student.onClass=function(){
+            console.log(this.name+"在上课");
+        }
+        student.onClass();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

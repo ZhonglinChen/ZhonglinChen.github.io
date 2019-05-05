@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS11&JS12_Answers</title>
+    <script>
+        //1. 创建以下四个数组：
+        // 一个没有数量限制的数组
+        // 一个只能放5个元素的数组
+        // 创建一个初始化时分配好元素的数组
+        // 字面量数组
+        var arr11=new Array();
+        var arr12=new Array(5);
+        var arr13=new Array('ele1',12,'ele3');
+        var arr14=['ele1',12,'ele3'];
+
+        //2. 通过字面量方式定义一个数组，并通过一个循环打印出该数组中的每一个元素。
+         console.log("----------2. 通过字面量方式定义一个数组，并通过一个循环打印出该数组中的每一个元素。--------------------");
+        var arr21=['ele1',12,{name:'Head',age:18},[1,2,3]];
+        var len=arr21.length;
+        for(var i=0;i<len;i++)
+        {
+            console.log(arr21[i]);
+        }
+
+        //3. 针对下面这个数组
+        console.log("----------3--------------------");
+        arr = [
+            245,
+            56,
+            [34,77,68,[12, 33]],
+            {
+                name: 'kevin',
+                age: 28,
+                sayHello: function(){
+                    return "hello";
+                }
+            }
+        ];
+
+        //按要求输出下面内容:
+
+        // 3.1 调用sayHello方法，打印出hello
+        console.log(arr[3].sayHello());
+
+        // 3.2 打印出68这个数
+        console.log(arr[2][2]);
+
+        // 3.3 打印出33这个数
+        console.log(arr[2][3][1]);
+
+
+        //4. 定义一个函数，该函数可以使用参数传入的字符作为分隔符连接一个字符串数组内的所有元素。例如定义一个数组arr = ['hello', 'Mr.', 'King']; 参数为"/"时，将输出hello/Mr./King
+        console.log("----------4. 定义一个函数，该函数可以使用参数传入的字符作为分隔符连接一个字符串数组内的所有元素。--------------------");
+        function strcat(tmpArr,c){
+            if(tmpArr.length<=0){
+                return "";
+            }
+
+            var resStr=tmpArr[0];
+            for(var i=1;i<tmpArr.length;i++){
+                resStr+=(c+tmpArr[i]);
+            }
+            return resStr;
+        }
+        var testArr=['hello', 'Mr.', 'King'];
+        console.log(strcat(testArr,"/"));
+
+
+        //5.  利用JS函数打印出当前时间、日期以及当前是星期几。
+        console.log("----------5.  利用JS函数打印出当前时间、日期以及当前是星期几--------------------");
+        console.log(new Date().toUTCString());
+
+        //6. 写一个JS函数，计算给定的一个总的分钟数等于多少小时多少分钟。例如：
+        console.log("----------6. 写一个JS函数，计算给定的一个总的分钟数等于多少小时多少分钟。--------------------");
+        function timeConvert(mins){
+            if(typeof mins !="number" || mins<0){
+                return "error";
+            }
+            var resHhrs=Math.floor(mins/60);
+            var resMins=mins%60;
+
+            return resHhrs+" hour(s) and "+resMins+" minute(s)."
+
+        }
+           // Test Data :
+        console.log(timeConvert(200));
+        // Output :
+        // "200 minutes = 3 hour(s) and 20 minute(s)."
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

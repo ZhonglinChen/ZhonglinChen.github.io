@@ -1,0 +1,108 @@
+<!--
+3. 针对下面这个九宫格，写一段脚本，要求点击任意一个单元格时，
+该单元格的背景颜色和文字颜色能够随机改变。
+（文字和单元格背景颜色不能使用同一个随机色）
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style type="text/css">
+        div {
+            width: 80%;
+            height: 600px;
+            margin-right: auto;
+            margin-left: auto;
+            border: 0px solid red;
+        }
+
+        table,
+        td,
+        tr {
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+
+        td {
+            text-align: center;
+            font-size: 35px;
+        }
+
+        table {
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+    <title>Document</title>
+    <script>
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+
+
+        window.onload = function () {
+            var table = document.getElementsByTagName("table")[0];
+            // console.log(table);
+            var rIndex, cIndex;
+            var randomBgColor,randomTxtColor;
+            for (var i = 0; i < table.rows.length; i++) {
+
+                for (var j = 0; j < table.rows[i].cells.length; j++) {
+                    table.rows[i].cells[j].onclick = function () {
+                        rIndex = this.parentElement.rowIndex;
+                        cIndex = this.cellIndex;
+                        console.log(rIndex + "," + cIndex);
+                        randomBgColor=getRandomColor();
+                        table.rows[rIndex].cells[cIndex].style.backgroundColor = randomBgColor;
+
+                        do{
+                            randomTxtColor=getRandomColor();
+                        }while(randomTxtColor==randomBgColor)
+
+                        table.rows[rIndex].cells[cIndex].style.color = getRandomColor();
+
+                    };
+                }
+            }
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+<div id="tbl">
+    <table>
+        <tr>
+            <td>点我变色</td>
+            <td>点我变色</td>
+            <td>点我变色</td>
+        </tr>
+        <tr>
+            <td>点我变色</td>
+            <td>点我变色</td>
+            <td>点我变色</td>
+        </tr>
+        <tr>
+            <td>点我变色</td>
+            <td>点我变色</td>
+            <td>点我变色</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS10_Demo</title>
+    <script>
+
+        var people =new  Object();
+        people.name='Head';
+        people.age=18;
+
+        var people=Object();
+        people.name='Head';
+        people.age=18;
+
+        var people={ name:'Head',age:18};
+
+        //赋值方式
+        var people={};
+        people.name='head';
+        people.age=18;
+
+        //输出
+        alert( people.age);
+        alert(people['age']);
+
+        //为对象创建方法;
+        var people={
+            run:function(){
+                return 'running';
+            }
+        }
+        alert(people.run());
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

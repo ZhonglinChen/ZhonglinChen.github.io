@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS20_Style and Size</title>
+    <script>
+        window.onload = function () {
+            /*
+            var ad = document.getElementByID("ad");
+            ad.style.color = "red";
+            ad.style.fontSize=20;
+*/
+            var ad=document.getElementById("ad");
+            var ae=ad.style.width;
+            var ae=ad.scrollWidth;
+
+            alert(ae);
+        }
+
+
+    </script>
+    <style>
+        #ad{
+            width:200px;height:200px;
+            border:1px red solid;
+
+        }
+    </style>
+</head>
+<body>
+<div id="ad">
+    js
+</div>
+
+</body>
+</html>

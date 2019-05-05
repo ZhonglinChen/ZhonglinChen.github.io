@@ -1,0 +1,95 @@
+<!--2. 编写一个简单的JS脚本针对下面这段HTML代码进行表单验证，
+要求当用户名输入框失去焦点时，
+判断用户名是否为空或者用户名长度太短，
+如果用户名为空，
+在id为showUserMess的td中显示用户名不能为空，
+如果用户名小于或等于6位，则显示用户名太短。
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style type="text/css">
+        * {
+            font-size: 10pt
+        }
+
+        #data {
+            margin: 0 auto;
+            width: 400px;
+            height: 300px
+        }
+
+        .mess {
+            height: 8px;
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            display: none;
+        }
+    </style>
+    <script>
+
+        function checkUserName(){
+            var inputTag=document.getElementById("userName");
+            var inputVal=inputTag.value;
+
+            var mess=document.getElementById("showUserMess");
+            mess.innerText="d";
+
+            // alert(inputVal);
+            if(inputVal.length==0)
+            {
+                mess.style.display="table-cell";
+                mess.innerHTML="用户名不能为空";
+            }
+            else if(inputVal.length<=6)
+            {
+                 mess.style.display="table-cell";
+                mess.innerHTML="用户名太短";
+            }
+            else{
+                mess.style.display="none";
+                mess.innerHTML="";
+            }
+        }
+
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="data">
+        <form name="myForm">
+            <table>
+                <tr>
+                    <td>用户名:</td>
+                    <td><input type="text" id="userName" onblur="checkUserName()"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="mess" id="showUserMess">dsdsd</td>
+
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td><input type="password" id="pwd" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="mess">密码不能为空！！</td>
+
+                </tr>
+                <tr>
+                    <td><input type="submit" value="确定" /></td>
+                    <td><input type="reset" value="取消" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>

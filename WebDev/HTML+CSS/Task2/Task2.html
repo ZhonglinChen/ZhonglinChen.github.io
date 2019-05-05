@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .navBar {
+            /*border: 1px red solid;*/
+            position: relative;
+
+            height: 75px;
+            line-height: 75px;
+            width: 80%;
+            margin: 0 auto;
+
+
+        }
+
+        .navTitle {
+            position: absolute;
+            left: 0;
+            width: 40%;
+            height: 75px;
+            line-height: 75px;
+            padding: 0;
+            margin: 0;
+
+
+            font-size: 25px;
+            font-weight: bold;
+            color: #0c7d0f;
+            text-align: center;
+
+
+        }
+
+
+        .navList {
+
+            /*border: 1px red dashed;*/
+            position: absolute;
+            right: 0;
+            width: 60%;
+            text-align: center;
+            height: 75px;
+            line-height: 75px;
+            vertical-align: middle;
+            padding: 0;
+            margin: 0;
+
+
+        }
+
+        .navList li {
+
+            width: 25%;
+            float: left;
+            list-style-type: none;
+            font-size: 20px;
+            height: 75px;
+            line-height: 75px;
+            font-weight: bold;
+
+        }
+
+        .navList li:hover {
+            color: rgb(12, 125, 15);
+        }
+
+        .bdBg {
+            /*border: 1px blue solid;*/
+            width: 100%;
+            background-color: white;
+            position: relative;
+        }
+
+        .bdLeftDiv {
+            /*border: 1px red solid;*/
+            background-image: url("bg2.jpg");
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 400px;
+            width: 500px;
+            top: 75px;
+            right: 50%;
+            position: absolute;
+            display: inline-block;
+
+            /* float:left;*/
+
+
+        }
+
+        .bdText {
+            border: 1px grey solid;
+            color: white;
+            left: 40px;
+            top: 60px;
+            right: 40px;
+            bottom: 60px;
+            position: absolute;
+            padding: 25px 35px;
+            color: rgba(235, 235, 235, 1);
+            font-family: Arial;
+            background: rgba(255, 255, 255, .1);
+
+
+        }
+
+        .bdContent {
+            line-height: 1.5em;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        .bdLink {
+            border: 1px white solid;
+            text-decoration: none;
+            color: white;
+            padding: 5px 10px;
+            margin: 10px 0;
+            display: inline-block;
+            font-size: 13px;
+
+            color: rgba(235, 235, 235, 1);
+
+        }
+
+
+        .bdRightDiv {
+            /*border: 1px red solid;*/
+
+            width: 525px;
+            display: inline-block;
+            position: absolute;
+            left: 50%;
+
+            /*float:left;*/
+        }
+
+        .bdList {
+            margin-top: 65px;
+        }
+
+
+        .bdList li::before {
+            /*border: 1px red solid;*/
+            content: '';
+            width: 45px;
+            height: 130px;
+            line-height: 30px;
+            display: inline-block;
+            float: left;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin: 0 25px 0 0;
+
+        }
+
+        .bdList li:nth-child(1)::before {
+            background-image: url("icon1.png");
+        }
+
+        .bdList li:nth-child(2)::before {
+            background-image: url("icon2.png");
+        }
+
+        .bdList li:nth-child(3)::before {
+            background-image: url("icon3.png");
+        }
+
+
+        .bdList li {
+            list-style-type: none;
+
+            /*border: 1px red solid;*/
+
+            height: 160px;
+            /*display:inline-block;*/
+
+
+        }
+
+        .bdList li h3 {
+            font-size: 22px;
+            margin-bottom: 0;
+        }
+
+        .bdList li p {
+            line-height: 1.4em;
+            font-size: 17px;
+            /*letter-spacing: 1px;*/
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<nav class="navBar">
+    <p class="navTitle">CTOACADMY COPORATION</p>
+    <ul class="navList">
+        <li>HOME</li>
+        <li style="color:#0c7d0f;">SERVICE</li>
+        <li>ACCOUNT</li>
+        <li>SUPPORT</li>
+    </ul>
+</nav>
+<div class="bdBg">
+
+    <div class="bdLeftDiv">
+
+        <div class="bdText">
+            <h2 style="font-weight: normal; font-size: 27px; margin-bottom: 0;">We offer best services</h2>
+            <p class="bdContent">Best services Is india's First Display Repairing Institute. We are Importer Trader And
+                Manufactures.
+                We sale All type of Oca Lamination machine Like Bst-1, YMJ.</p>
+            <a href="#" class="bdLink">Read More>></a>
+        </div>
+    </div>
+
+    <div class="bdRightDiv">
+        <ul class="bdList">
+            <li>
+                <div>
+                    <h3>Business Analytics</h3>
+                    <p>Business analytics (BA) refers to the skills, technologies, practices for continuous iterative
+                        exploration and investigation of past business performance to gain insight and drive business
+                        planning.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h3>Financial Executive</h3>
+                    <p>The Finance Executive includes any executive role that is responsible for managing the financial
+                        performance of the company. This role might include C-level and Senior Vice President-level
+                        executives.</p>
+                </div>
+            </li>
+
+            <li>
+                <div><h3>Management System</h3>
+                    <p>A management system is a set of policies, processes and procedures used by an organization to
+                        ensure
+                        that it can fulfill the tasks required to achieve its objectives.</p></div>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+</body>
+</html>
