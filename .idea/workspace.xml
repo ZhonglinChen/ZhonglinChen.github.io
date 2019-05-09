@@ -2,69 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task1/Task1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/Task2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/pic1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/task2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/service1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/service2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/service3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/service4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/style4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/task4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/move-up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/style5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/task5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/team1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS1&amp;JS2/JS1_Demo_Intro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS11&amp;JS12_Answer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS11_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS12_Demo_Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS14/JS14_Answers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS14/JS14_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS18_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19&amp;JS20_Answer1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19&amp;JS20_Answer2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19&amp;JS20_Answer3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS20_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS3&amp;JS4_Practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS3_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS4_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS31_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS31_Script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Demo1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Script1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Script2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/img02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS33/JS33_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS33/img03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS33/img04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS5&amp;JS6_Practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS5_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS6_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS7&amp;JS8_Practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS7_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS8_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS10_Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS9&amp;JS10_Practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS9_Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/English/Useful Phrases" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/English/UsefulPhrases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyCharm/Useful Key Shortcuts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310_Demo1_Timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310_Demo2_SlideShow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34&amp;JS35_Answer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34_Demo1_Get Elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34_Demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS35_Demo1_For Loop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS35_Demo2_Nesting For Loop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS36/JS36_Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS36/JS36_Demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo1_Function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo2_Arguments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS39_Demo_Scope.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task1/banner1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/task1.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebDev/HTML+CSS/Task1/task1.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,23 +54,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS33/JS33_Demo.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="287">
+              <caret line="155" column="40" lean-forward="true" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebProject/PublicPage.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebProject/Test.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -138,6 +103,11 @@
       <find>top</find>
       <find>n: top</find>
       <find>left</find>
+      <find>minWidth</find>
+      <find>maxWidth</find>
+      <find>windowHeight</find>
+      <find>windowWidth</find>
+      <find>snowDiv.index</find>
     </findStrings>
     <replaceStrings>
       <replace>td</replace>
@@ -152,33 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebDev/HTML+CSS/style.css" />
-        <option value="$PROJECT_DIR$/WebDev/HTML+CSS/Task1/style1.css" />
-        <option value="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/style2.css" />
-        <option value="$PROJECT_DIR$/WebDev/HTML+CSS/Task3/style3.css" />
-        <option value="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/style4.css" />
-        <option value="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/style5.css" />
-        <option value="$PROJECT_DIR$/WebDev/HTML+CSS/Task.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS1/JS1_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS1/JS1_Demo_Intro.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS2/JS2_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS2/JS4_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS4_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS3&amp;JS4_Practice.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS5_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS6_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS5&amp;JS6_Practice.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS7_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS8_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS7&amp;JS8_Practice.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS9.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS10_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS9&amp;JS10_Practice.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS11_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS12_Demo_Date.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS11&amp;JS12_Answer.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS13&amp;JS14/JS13.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS13&amp;JS14/JS14_Demo.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS13&amp;JS14/JS13_Demo.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS13/JS13_Answers.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18.html" />
@@ -203,6 +146,33 @@
         <option value="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Demo2.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Script2.js" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS33/JS33_Demo.html" />
+        <option value="$PROJECT_DIR$/PyCharm/Useful Key Shortcuts" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS34/JS34_Demo.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS34/JS34_Demo1.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS34/JS34_Demo2.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS35.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS35_Demo1_For Loop.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS35_Demo2_Nesting For Loop.html" />
+        <option value="$PROJECT_DIR$/English/Useful Phrases" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/Notes" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS36/JS36_Demo.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS36/JS36_Demo2.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo2.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS38/JS38_Demo.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS38/JS38_Demo2_Arguments.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS39/JS39_Demo_Scope.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo2_Arguments.html" />
+        <option value="$PROJECT_DIR$/English/UsefulPhrases.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310_Demo.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310_Demo2.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Question1_Page2.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo1.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310&amp;JS311_Answer.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34&amp;JS35_Answer.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Answer.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo2.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html" />
       </list>
     </option>
   </component>
@@ -230,18 +200,64 @@
             <path>
               <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="English" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="WebDev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="WebProject" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="JS34&amp;JS35" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="JS36" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="JS37" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="JS38&amp;JS39" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="JS310&amp;JS311" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="JS0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="WebProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Bilibili" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,7 +269,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebDev/JS/JS33" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -262,19 +278,19 @@
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39" />
+      <recent name="$PROJECT_DIR$/WebDev/JS" />
+      <recent name="$PROJECT_DIR$/WebDev/JS/JS33" />
+      <recent name="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18" />
+      <recent name="$PROJECT_DIR$/WebDev/HTML+CSS/Task3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS33" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32" />
       <recent name="$PROJECT_DIR$/WebDev/HTML+CSS/Task5" />
       <recent name="$PROJECT_DIR$/WebDev/HTML+CSS/Task4" />
-      <recent name="$PROJECT_DIR$/WebDev/HTML+CSS/Task3" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/WebDev/JS/JS33" />
-      <recent name="$PROJECT_DIR$/WebDev/JS" />
-      <recent name="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18" />
-      <recent name="$PROJECT_DIR$/WebDev/HTML+CSS/Task3" />
-      <recent name="$PROJECT_DIR$/WebDev/HTML+CSS/Task1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,29 +305,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JS33_Demo.html">
-    <configuration name="JS19&amp;JS20_Answer3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS19&amp;JS20/JS19&amp;JS20_Answer3.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.JS310JS311_Falling Snow.html">
+    <configuration name="JS310JS311_Falling Snow.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="JS31_Demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS31/JS31_Demo.html" useBuiltInWebServerPort="true">
+    <configuration name="JS311_Demo1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS310&amp;JS311/JS311_Demo1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="JS32_Demo1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS31&amp;JS32/JS32_Demo1.html" useBuiltInWebServerPort="true">
+    <configuration name="JS311_Demo2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS310&amp;JS311/JS311_Demo2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="JS32_Demo2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS31&amp;JS32/JS32_Demo2.html" useBuiltInWebServerPort="true">
+    <configuration name="JS311_Question1_Page2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS310&amp;JS311/JS311_Question1_Page2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="JS33_Demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS33/JS33_Demo.html" useBuiltInWebServerPort="true">
+    <configuration name="JS34&amp;JS35_Answer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS34&amp;JS35/JS34&amp;JS35_Answer.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.JS33_Demo.html" />
-        <item itemvalue="JavaScript Debug.JS32_Demo2.html" />
-        <item itemvalue="JavaScript Debug.JS32_Demo1.html" />
-        <item itemvalue="JavaScript Debug.JS31_Demo.html" />
-        <item itemvalue="JavaScript Debug.JS19&amp;JS20_Answer3.html" />
+        <item itemvalue="JavaScript Debug.JS310JS311_Falling Snow.html" />
+        <item itemvalue="JavaScript Debug.JS34&amp;JS35_Answer.html" />
+        <item itemvalue="JavaScript Debug.JS311_Demo2.html" />
+        <item itemvalue="JavaScript Debug.JS311_Demo1.html" />
+        <item itemvalue="JavaScript Debug.JS311_Question1_Page2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -353,12 +369,13 @@
       <workItem from="1556526689126" duration="17272000" />
       <workItem from="1556681040363" duration="13552000" />
       <workItem from="1556848962479" duration="5346000" />
-      <workItem from="1556906565629" duration="334000" />
+      <workItem from="1556906565629" duration="9657000" />
+      <workItem from="1557111924706" duration="25298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136131000" />
+    <option name="totallyTimeSpent" value="170752000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -370,11 +387,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="931" y="0" width="749" height="1050" extended-state="0" />
+    <frame x="817" y="0" width="863" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49748743" visible="true" weight="0.28712872" />
-      <window_info id="Structure" order="1" sideWeight="0.5025126" side_tool="true" weight="0.2792128" />
-      <window_info id="Favorites" order="2" sideWeight="0.5025126" side_tool="true" weight="0.2792128" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49693877" weight="0.23232323" />
+      <window_info id="Structure" order="1" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
+      <window_info id="Favorites" order="2" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -391,8 +409,8 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3292683" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3292683" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,174 +419,33 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebDev/HTML+CSS/Task3/style3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/HTML+CSS/Task1/Task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/HTML+CSS/Task1/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/HTML+CSS/Task2/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/HTML+CSS/Task5/team1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/HTML+CSS/Task5/task5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/HTML+CSS/Task5/star.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/HTML+CSS/Task5/style5.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/HTML+CSS/Task4/style4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS1&amp;JS2/JS1_Demo_Intro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="22" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS3_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS4_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS3&amp;JS4_Practice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS5&amp;JS6_Practice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS5_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS6_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS7_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS8_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS7&amp;JS8_Practice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS9_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS10_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS9&amp;JS10_Practice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS11_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS12_Demo_Date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS11&amp;JS12_Answer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS13&amp;JS14/JS14_Demo.html" />
     <entry file="file://$PROJECT_DIR$/WebDev/JS/JS14/JS14_Demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -746,11 +623,188 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebProject/PublicPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebProject/Test.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebProject/PublicPage.html">
+    <entry file="file://$PROJECT_DIR$/PyCharm/Useful Key Shortcuts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34_Demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS35_Demo1_For Loop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS35_Demo2_Nesting For Loop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34_Demo1_Get Elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/snow.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17509" column="12" selection-start-line="17509" selection-start-column="12" selection-end-line="17509" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS36/JS36_Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS36/JS36_Demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS39_Demo_Scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo2_Arguments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/English/Useful Phrases">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/English/UsefulPhrases.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo1_Function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Question1_Page1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Question1_Page2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310_Demo1_Timer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310_Demo2_SlideShow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310&amp;JS311_Answer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34&amp;JS35_Answer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="155" column="40" lean-forward="true" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

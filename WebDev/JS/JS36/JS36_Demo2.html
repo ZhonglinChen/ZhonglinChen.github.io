@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS36_Demo2_Application of this</title>
+</head>
+<body>
+    <input type="button" value="button1">
+    <input type="button" value="button2">
+    <input type="button" value="button3">
+
+    <script>
+        var oBtn = document.getElementsByTagName("input");
+        for(var i=0;i<oBtn.length;i++){
+            oBtn[i].onclick=fn1; // oBtn calls this
+        }
+
+        function fn1(){
+            alert(this);
+            this.style.background='red';
+        }
+    </script>
+
+</body>
+</html>

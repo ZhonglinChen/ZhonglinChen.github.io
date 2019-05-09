@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--
+2. 编写一段JS脚本，利用下面的雪花图片，在页面上生成雪花。要求如下：
+
+    1. 页面上需要有一个下拉框，用户可以通过这个下拉框设置每次生成雪花的数量，数量可以在1-10之间选择。
+
+    2. 点击“生成雪花”按钮后，将在页面上生成对应数量的雪花（用户可随意多次点击生成雪花按钮，每次都会生成指定数量的雪花）。要求生成的雪花的宽度在30-40px之间，每片雪花出现的位置随机。
+
+    3. 点击“删除全部雪花”按钮后，将删除页面上所有的雪花，要求一片不剩。
+-->
+    <script>
+        var maxOptNumber = 10;
+        var minWidth = 30;
+        var maxWidth = 40;
+        var windowHeight;
+        var windowWidth;
+        var imgSrc = "./snow.jpg";
+
+        window.onload = function () {
+            //add 1-10 selection
+            var sel = document.createElement("select");
+            sel.id = "sel";
+            for (var i = 1; i <= maxOptNumber; i++) {
+                var opt = document.createElement("option");
+                opt.text = i;
+
+                sel.add(opt);
+            }
+            document.body.appendChild(sel);
+            //add generate button
+            var genBtn = document.createElement("input");
+            genBtn.type = "button";
+            genBtn.value = "Generate Snow";
+            document.body.appendChild(genBtn);
+            //add remove button
+            var rmBtn = document.createElement("input");
+            rmBtn.type = "button";
+            rmBtn.value = "Remove All Snow";
+            document.body.appendChild(rmBtn);
+
+
+            genBtn.onclick = generateRandomSnow;
+            rmBtn.onclick = removeRandomSnow;
+
+        };
+
+        function getRandomInt(floor, top) {
+            return Math.floor(Math.random() * (top - floor + 1)) + floor;
+        }
+
+        function generateRandomSnow() {
+            console.log("generateRandomSnow starts");
+            var sel = document.getElementById("sel");
+            var val = sel.options[sel.selectedIndex].value;
+            console.log(val);
+
+
+            for (var i = 0; i < val; i++) {
+
+
+                windowHeight = document.documentElement.clientHeight;
+                windowWidth = document.documentElement.clientWidth;
+
+                var randomHeight = randomWidth = getRandomInt(minWidth, maxWidth);
+                console.log("randomWidth:" + randomWidth + " randomHeight:" + randomHeight);
+
+                var randomLeft = getRandomInt(1, windowWidth - randomWidth + 1);
+                var randomTop = getRandomInt(1, windowHeight - randomHeight + 1);
+                console.log("randomLeft:" + randomLeft + ", randomTop:" + randomTop);
+
+
+                var snowImg = document.createElement("img");
+                snowImg.src = imgSrc;
+                snowImg.style.width = randomWidth + "px";
+                snowImg.style.left = randomLeft + "px";
+                snowImg.style.top = randomTop + "px";
+                snowImg.style.position = "absolute";
+
+                document.body.appendChild(snowImg);
+            }
+
+            console.log("generateRandomSnow ends");
+
+        }
+
+        function removeRandomSnow() {
+            console.log("RemoveRandomSnow start");
+            var snowImgs = document.getElementsByTagName("img");
+            for (var i = snowImgs.length - 1; i >= 0; i--) {
+                snowImgs[i].parentNode.removeChild(snowImgs[i]);
+            }
+            console.log("RemoveRandomSnow ends");
+
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

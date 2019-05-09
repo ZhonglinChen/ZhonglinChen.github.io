@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS38_Demo2_Arguments</title>
+    <script>
+        function box() {
+            // return arguments[0]+'|'+arguments[1];
+            return arguments.length;
+        }
+
+        console.log(box(1, 2, 3, 4, 5));
+
+        function box2() {
+            var sum = 0;
+            if (arguments.length == 0)
+                return sum;
+            for (var i = 0; i < arguments.length; i++) {
+                sum += arguments[i];
+            }
+            return sum;
+        }
+
+        console.log(box2(1, 2, 3, 4));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

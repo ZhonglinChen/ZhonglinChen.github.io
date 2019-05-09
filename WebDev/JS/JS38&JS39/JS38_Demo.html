@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS38_Demo_Return</title>
+</head>
+<body>
+<script>
+    window.onload = function () {
+        /*
+        function fn1(){
+            // return 123;
+            return function(a){
+                alert(a+b);
+            }
+        }
+
+        fn1();
+*/
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        $('ad').onclick = function () {
+            alert("节点的封装");
+        }
+    }
+</script>
+
+<input type="button" id="ad" value="click me">
+
+</body>
+</html>
