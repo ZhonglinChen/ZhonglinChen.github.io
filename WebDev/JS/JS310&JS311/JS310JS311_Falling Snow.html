@@ -102,29 +102,7 @@
                 snowDiv.setAttribute("stopFlag", "false");
                 console.log("Snow No." + snowDiv.index + " generated done");
                 falling(snowDiv);
-                /*
-                 var num=0;
-                 var timer = setInterval(
-                 function () {
-                     num++;
-                     var randomHorizontalMoveDis = getRandomInt(minHorizontalMoveDis, maxHorizontalMoveDis);
-                     var randomVerticalMoveDis = getRandomInt(minVerticalMoveDis, maxVerticalMoveDis);
-                     console.log(randomHorizontalMoveDis + "," + randomVerticalMoveDis);
 
-                     // console.log(window.getComputedStyle(snowDiv).left+","+window.getComputedStyle(snowDiv).top);
-                     snowDiv.style.left = parseInt(window.getComputedStyle(snowDiv).left) + randomHorizontalMoveDis + "px";
-                     snowDiv.style.top = parseInt(window.getComputedStyle(snowDiv).top) + randomVerticalMoveDis + "px";
-                     console.log(window.getComputedStyle(snowDiv).left + "," + window.getComputedStyle(snowDiv).top);
-                     console.log(num);
-
-                     if (num >= 5) {
-                         clearInterval(timer);
-                     }
-
-                 }
-
-                 , 800);
-                 */
             }
 
             console.log(val + " of snow generated done");

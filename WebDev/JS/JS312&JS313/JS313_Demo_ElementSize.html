@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS313_Demo_ElementSize</title>
+    <style>
+        #ad {
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            background: red;
+            height: 200px;
+            border: 1px solid blue;
+            top: 50px;
+            left: 50px;
+            position: absolute;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #ae {
+            width: 600px;
+            height: 600px;
+            background: red;
+
+        }
+
+        #af {
+            width: 60px;
+            height: 60px;
+            background: pink;
+
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="ad"></div>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<p>11111</p>
+<div id="ae">
+
+</div>
+<div id="af"></div>
+
+
+<script>
+
+    var box = document.getElementById("ad");
+    var af = document.getElementById("af");
+    // alert(box.style.width);//gnore the padding and margin
+    // alert(box.style.height);
+    // alert(box.clientWidth);
+    // alert(box.clientHeight);
+    // alert(box.scrollWidth);
+    // alert(box.scrollHeight);
+
+    // alert(box.offsetWidth);
+    // alert(box.offsetHeight);
+
+    // alert(box.clientLeft);
+    // alert(box.clientTop);
+    // alert(box.offsetLeft);
+    // alert(box.offsetTop);
+    // alert(box.scrollLeft);
+    // alert(box.scrollTop);
+
+    af.onclick = scrollStart;
+
+    function scrollStart() {
+        if (document.documentElement.scrollTop != 0) {
+            document.documentElement.scrollTop=0;
+        } else {
+            alert('already top');
+        }
+    }
+
+
+</script>
+</body>
+</html>

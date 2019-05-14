@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS314_Demo1_Event Bubble</title>
+    <style>
+        #ad{
+            width:200px;
+            height:200px;
+            background:red;
+        }
+    </style>
+</head>
+<body>
+
+<div id="ad">
+    <input type="button" id="ae" value="click">
+</div>
+    <script>
+        var ad =document.getElementById("ad");
+        var ae =document.getElementById("ae");
+        ae.onclick=function(){
+            alert(1);
+        }
+        ad.onclick=function(){
+            alert(2);
+        }
+        //W3C and IE to prevent the event bubble
+        function stopPro(evt){
+            var e= evt||window.event;
+            window.event?e.cancelBubble =true:e.stopPropagation();
+        }
+    </script>
+
+</body>
+</html>
