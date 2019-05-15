@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Waterfall</title>
+    <script>
+
+        var imgNumber = 31;
+
+        var windowWidth;
+        var imgColNumber;
+        var minCol = 0;
+        var imgBtmArr;
+
+        var imgWidth = 180;
+        var imgPadding = 0;
+        var imgMargin = 5;
+        var imgBoxWidth = imgWidth + 2 * imgPadding + 2 * imgMargin;
+        var imgBorder = "0.5px lightgray solid";
+        var imgPosition = "absolute";
+
+
+        function initImg() {
+
+            //get the number of img for each row
+            console.log("-------------------Init Page Start-------------------");
+            var oImg;
+            for (var i = 1; i <= imgNumber; i++) {
+
+                //create <img>
+                oImg = new Image();
+
+                //set src
+                oImg.src = getImgFilePath(i);
+
+                //set constant css style
+                oImg.style.width = imgWidth + "px";
+                oImg.style.padding = imgPadding + "px";
+                oImg.style.margin = imgMargin + "px";
+                oImg.style.border = imgBorder;
+                oImg.style.position = imgPosition;
+                oImg.style.display = "none";
+
+                document.body.appendChild(oImg);
+
+            }
+            console.log("-------------------Init Page end-------------------");
+
+            oImg.onload = function () {
+                //load complete
+                updatePosition();
+                lazyLoad();
+            }
+        }
+
+        function updatePosition() {
+
+            console.log("-------------------Update start-------------------");
+            //get the number of img for each row
+
+            windowWidth = document.documentElement.clientWidth;
+            imgColNumber = Math.floor(windowWidth / (imgBoxWidth));
+            console.log("-------------------Column number:" + imgColNumber + "-------------------");
+
+            //generate empty img for the first row
+            imgBtmArr = new Array();
+            minCol = 0;
+            for (var i = 0; i < imgColNumber; i++) {
+                imgBtmArr.push({left: i * imgBoxWidth, top: 0});
+            }
+            console.log("First row: ");
+            console.log(imgBtmArr);
+
+            var oImgArr = document.body.getElementsByTagName("img");
+
+
+            for (var i = 0; i < oImgArr.length; i++) {
+                /*
+                set dynamic css style:left and top
+                and update bottom img position
+                */
+                var oImg = oImgArr[i];
+                oImg.style.display = "block";
+                oImg.style.left = imgBtmArr[minCol].left + "px";
+                oImg.style.top = imgBtmArr[minCol].top + "px";
+                //update bottom row image position
+
+                imgBtmArr[minCol].top += oImg.height + 2 * imgPadding + imgMargin;
+                //log
+                console.log("img:" + oImg.src + " position: col:" + minCol + " top:" + imgBtmArr[minCol].top + "px");
+
+                //update the column with the lowest top
+                var tmpMinCol = 0;
+                for (var j = 1; j < imgBtmArr.length; j++) {
+                    if (imgBtmArr[j].top < imgBtmArr[tmpMinCol].top) {
+                        tmpMinCol = j;
+                    }
+                }
+                minCol = tmpMinCol;
+
+
+            }
+            console.log("-------------------Update end-------------------");
+
+        }
+
+         function lazyLoad() {
+            while (document.documentElement.clientHeight + document.documentElement.scrollTop > imgBtmArr[minCol].top) {
+                console.log("lazyLoad");
+
+                var rmNum = getRandomInt(1, imgNumber);
+
+                //get src
+                var srcStr = getImgFilePath(rmNum);
+                //create <img>
+                var oImg = document.createElement("img");
+
+                //set src
+                oImg.src = srcStr;
+
+                //set constant css style
+                oImg.style.width = imgWidth + "px";
+                oImg.style.padding = imgPadding + "px";
+                oImg.style.margin = imgMargin + "px";
+                oImg.style.border = imgBorder;
+                oImg.style.position = imgPosition;
+                oImg.style.display = "none";
+
+                //add <img> to body
+                document.body.appendChild(oImg);
+
+
+                oImg.style.display = "block";
+                oImg.style.left = imgBtmArr[minCol].left + "px";
+                oImg.style.top = imgBtmArr[minCol].top + "px";
+                //update bottom row image position
+                imgBtmArr[minCol].top += oImg.height + 2 * imgPadding + imgMargin;
+                //log
+                console.log("img:" + oImg.src + " position: col:" + minCol + " top:" + imgBtmArr[minCol].top + "px");
+
+                //update the column with the lowest top
+                var tmpMinCol = 0;
+                for (var j = 1; j < imgBtmArr.length; j++) {
+                    if (imgBtmArr[j].top < imgBtmArr[tmpMinCol].top) {
+                        tmpMinCol = j;
+                    }
+                }
+                minCol = tmpMinCol;
+
+
+            }
+        }
+
+        window.onload = function () {
+            initImg();
+
+        };
+        window.onresize = function () {
+            updatePosition();
+
+        };
+        window.onscroll = function(){
+            lazyLoad();
+        };
+
+
+
+
+        function getRandomInt(flr, tp) {
+            return Math.floor(Math.random() * (tp - flr + 1)) + flr;
+        }
+
+        function getImgFilePath(n) {
+
+            var str = n.toString();
+            var len = str.length;
+            var maxLen = 3;
+            var prefix = "0";
+            for (var i = 0; i < maxLen - len; i++) {
+                str = prefix + str;
+            }
+            str = "./img/" + str;
+            str += ".jpg";
+
+            return str;
+        }
+    </script>
+
+</head>
+<body>
+
+
+</body>
+</html>

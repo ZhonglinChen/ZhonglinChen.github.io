@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS312&amp;JS313/JS312&amp;JS313_Demo_Array_Advanced.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS312&amp;JS313/JS313_Demo_ElementSize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS314/JS314_Demo1_Event Bubble.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS314/JS314_Demo2_Event Bonding.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS314/JS314_Demo3_Event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task1/JS_Task1-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task1/JS_Task1-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/English/Useful Phrases" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,92 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS314/JS314_Demo3_Event.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS39_Demo_Scope.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo2_Arguments.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo1_Function.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-1.html">
+        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310_Demo2_SlideShow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS312&amp;JS313/JS313_Demo_ElementSize.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="229" column="29" selection-start-line="229" selection-start-column="29" selection-end-line="229" selection-end-column="29" />
+            <state relative-caret-position="1730">
+              <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -177,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer5.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer6.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19_Demo.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS20_Demo.html" />
@@ -228,6 +137,7 @@
         <option value="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task1-2.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-1.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html" />
       </list>
     </option>
   </component>
@@ -266,41 +176,6 @@
               <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="WebDev" type="462c0819:PsiDirectoryNode" />
               <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="JS37" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="JS38&amp;JS39" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="JS310&amp;JS311" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="JS312&amp;JS313" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="JS314" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
               <item name="JS_Tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,7 +197,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebDev/JS/JS_Tasks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -332,11 +207,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS33" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32" />
-      <recent name="$PROJECT_DIR$/WebDev/HTML+CSS/Task5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2" />
@@ -358,11 +233,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JS_Task2-1.html">
+  <component name="RunManager" selected="JavaScript Debug.JS_Task2-2.html">
     <configuration name="JS310_Demo2_SlideShow.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS310&amp;JS311/JS310_Demo2_SlideShow.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="JS311_Demo2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS310&amp;JS311/JS311_Demo2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="JS314_Demo3_Event.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS314/JS314_Demo3_Event.html" useBuiltInWebServerPort="true">
@@ -374,13 +246,16 @@
     <configuration name="JS_Task2-1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="JS_Task2-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.JS_Task2-2.html" />
         <item itemvalue="JavaScript Debug.JS_Task2-1.html" />
         <item itemvalue="JavaScript Debug.JS39_Demo_Scope.html" />
         <item itemvalue="JavaScript Debug.JS314_Demo3_Event.html" />
         <item itemvalue="JavaScript Debug.JS310_Demo2_SlideShow.html" />
-        <item itemvalue="JavaScript Debug.JS311_Demo2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -425,12 +300,12 @@
       <workItem from="1556906565629" duration="9657000" />
       <workItem from="1557111924706" duration="26913000" />
       <workItem from="1557445533251" duration="14169000" />
-      <workItem from="1557710453989" duration="12213000" />
+      <workItem from="1557710453989" duration="21821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198749000" />
+    <option name="totallyTimeSpent" value="208357000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -538,13 +413,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -863,8 +731,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+        <state relative-caret-position="572">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1730">
+          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
         </state>
       </provider>
     </entry>
