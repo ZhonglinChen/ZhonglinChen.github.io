@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS_Task3</title>
+    <style>
+
+
+        table {
+            border: 1px solid black;
+            border-spacing: 0px;
+            margin: 0 auto;
+            text-align: center;
+            width:1000px;
+
+        }
+        th, td {
+            border: 0.5px solid rgb(188,188,188);
+
+        }
+
+        th {
+            color: blue;
+            font: 22px bold;
+            font-family: "Arial Black";
+        }
+        td:not(:last-child){
+            height:100px;
+        }
+
+        .cart tr th:nth-of-type(1), td:nth-of-type(1) {
+            width: 90px;
+
+        }
+
+        .cart tr th:nth-of-type(2), td:nth-of-type(2) {
+            width: 100px;
+        }
+
+        .cart tr th:nth-of-type(3), td:nth-of-type(3) {
+            width: 400px;
+        }
+
+        .cart tr th:nth-of-type(4), td:nth-of-type(4) {
+            width: 100px;
+        }
+
+        .cart tr th:nth-of-type(5), td:nth-of-type(5) {
+            width: 100px;
+        }
+
+        .cart tr th:nth-of-type(6), td:nth-of-type(6) {
+            width: 200px;
+            color:orangered;
+            font-weight: bolder;
+        }
+
+        #btmLeftDiv{
+            float:left;
+        }
+
+
+        .rowImg{
+            width:50px;
+        }
+
+        .resetBtn:hover{
+            color:blue;
+            cursor:pointer;
+            text-decoration:underline;
+        }
+        #totalAmountSpan, #totalPriceSpan{
+            font-weight:bolder;
+            color:orangered;
+
+        }
+
+
+        .prod_imgs_container{
+            /*border:1px red solid;*/
+            text-align: left;
+            display:none;
+        }
+
+        .summaryBtn:hover{
+            cursor:pointer
+        }
+
+        .summaryImg{
+            border:1px  rgb(238,238,238) solid;
+            display:inline-block;
+            width:80px;
+            height:80px;
+            margin:7.5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position:relative;
+            padding:0px;
+        }
+        .prod_cancel_btn{
+            position:absolute;
+            display: block;
+            right:0px;
+            top:0px;
+            left:0;
+            font-size:15px;
+            margin:0;
+            width:auto;
+            text-align: center;
+            color:red;
+            background-color: #dad3a1;
+        }
+        .prod_cancel_btn:hover{
+            cursor:pointer;
+
+        }
+        .prod_cancel_btn:after{
+            content:"取消选择";
+        }
+
+    </style>
+    <script>
+        var rowNum=0;
+        var checkedNum=0;
+        var currencyUnit="￥";
+        window.onload=function(){
+
+
+            addNewRow(false,"images/p1.jpg","酷黑，棒棒棒棒",1.,111.00);
+            addNewRow(false,"images/p2.jpg","土豪金，尊贵享受",1,111.00);
+            addNewRow(false,"images/p3.jpg","大屏幕，清晰无比",1,1333.68);
+            addNewRow(false,"images/p4.jpg","就是这么酷，达人必备",1,141.99);
+            updateSatResult();
+
+
+            var allCheckboxArr=document.getElementsByClassName("allCheckbox");
+            for(var i=0;i<allCheckboxArr.length;i++){
+
+                allCheckboxArr[i].onchange = function () {
+                    allCheck(this.checked);
+                    updateSatResult();
+
+
+                };
+            }
+
+
+
+            var rowCheckboxArr=document.getElementsByClassName("rowCheckbox");
+            for(var i=0;i<rowCheckboxArr.length;i++){
+                rowCheckboxArr[i].onchange=function(){
+                    oneCheck(this.checked);
+                    updateSatResult();
+
+                }
+            }
+
+
+            var rowAmtBtnArr=document.getElementsByClassName("rowAmtBtn");
+            for(var i=0;i<rowAmtBtnArr.length;i++){
+                rowAmtBtnArr[i].onclick=function(){
+                    updateAmt(this);
+                    updateSatResult();
+
+
+                }
+            }
+
+
+
+            var sumBtn=document.getElementsByClassName("summaryBtn")[0];
+            sumBtn.onclick=switchSummarySt;
+
+
+
+        };
+
+
+
+        function allCheck(checkSt){
+            console.log(checkSt);
+            var rowCheckboxArr=document.getElementsByClassName("rowCheckbox");
+            for(var i=0;i<rowCheckboxArr.length;i++){
+                rowCheckboxArr[i].checked=checkSt;
+            }
+
+            var allCheckboxArr=document.getElementsByClassName("allCheckbox");
+            allCheckboxArr[0].checked=checkSt;
+            allCheckboxArr[1].checked=checkSt;
+
+            if(checkSt){
+                checkedNum=rowNum;
+            }
+            else{
+                checkedNum=0;
+            }
+
+            console.log("total checked number = "+checkedNum);
+
+        }
+        function oneCheck(checkSt){
+            checkSt?checkedNum++:checkedNum--;
+
+            console.log("total checked number = "+checkedNum);
+
+
+            var allCheckboxArr=document.getElementsByClassName("allCheckbox");
+
+            if(checkedNum==rowNum){
+                allCheckboxArr[0].checked=true;
+                allCheckboxArr[1].checked=true;
+            }
+            else{
+                allCheckboxArr[0].checked=false;
+                allCheckboxArr[1].checked=false;
+            }
+
+        }
+
+        function updateAmt(obj){
+            var btnVal=obj.value;
+            var rowAmtSpan=obj.parentElement.getElementsByClassName("rowAmountSpan")[0];
+            var rowPriceSpan=obj.parentElement.parentElement.getElementsByClassName("rowPriceSpan")[0];
+            var rowTtlSpan=obj.parentElement.parentElement.getElementsByClassName("rowTotalSpan")[0];
+
+            var amt=rowAmtSpan.innerHTML;
+            if(btnVal=='-'){
+                amt=( amt>1?amt-1:1);
+            }
+            else{
+                amt++;
+            }
+            rowAmtSpan.innerHTML=amt;
+            rowTtlSpan.innerHTML=(parseFloat(rowPriceSpan.innerHTML)*parseInt(rowAmtSpan.innerHTML)).toFixed(2);
+            console.log(obj.parentElement.parentElement.getElementsByClassName("rowTotalSpan")[0]);
+
+        }
+
+
+        function resetTable(){
+            allCheck(false);
+            var table=document.getElementsByClassName("cartTable")[0];
+            // console.log(table);
+            for(var i=1;i<table.rows.length-1;i++){
+                var rowAmtSpan=table.rows[i].getElementsByClassName("rowAmountSpan")[0];
+                var rowPriceSpan=table.rows[i].getElementsByClassName("rowPriceSpan")[0];
+                var rowTtlSpan=table.rows[i].getElementsByClassName("rowTotalSpan")[0];
+
+                rowAmtSpan.innerHTML="1";
+                rowTtlSpan.innerHTML=(parseFloat(rowPriceSpan.innerHTML)*parseInt(rowAmtSpan.innerHTML)).toFixed(2);
+
+            }
+            updateSatResult();
+        }
+
+        var _OPEN = "open";
+        var _OPEN_IMG_PATH = "./images/down.png";
+        var _CLOSE = "close";
+        var _CLOSE_IMG_PATH = "./images/up.png";
+        var _STATE_ATTRIBUTE="state";
+        function setSummarySt(state) {
+
+            if (state == _CLOSE) {
+                document.getElementsByClassName("prod_imgs_container")[0].style.display = "none";
+                document.getElementsByClassName("summaryBtn")[0].setAttribute(_STATE_ATTRIBUTE, _CLOSE);
+                document.getElementsByClassName("summaryBtn")[0].setAttribute("src", _CLOSE_IMG_PATH);
+
+
+            } else if (state == _OPEN) {
+                document.getElementsByClassName("prod_imgs_container")[0].style.display = "block";
+                document.getElementsByClassName("summaryBtn")[0].setAttribute(_STATE_ATTRIBUTE, _OPEN);
+                document.getElementsByClassName("summaryBtn")[0].setAttribute("src", _OPEN_IMG_PATH);
+
+
+            }
+        }
+        function switchSummarySt(){
+
+            var state=document.getElementsByClassName("summaryBtn")[0].getAttribute(_STATE_ATTRIBUTE);
+            console.log(state);
+
+            if (state == _OPEN) {
+                document.getElementsByClassName("prod_imgs_container")[0].style.display = "none";
+                document.getElementsByClassName("summaryBtn")[0].setAttribute(_STATE_ATTRIBUTE, _CLOSE);
+                document.getElementsByClassName("summaryBtn")[0].setAttribute("src", _CLOSE_IMG_PATH);
+
+
+            } else if (state == _CLOSE && checkedNum>0) {
+
+
+
+                document.getElementsByClassName("prod_imgs_container")[0].style.display = "block";
+                document.getElementsByClassName("summaryBtn")[0].setAttribute(_STATE_ATTRIBUTE, _OPEN);
+                document.getElementsByClassName("summaryBtn")[0].setAttribute("src", _OPEN_IMG_PATH);
+
+
+            }
+        }
+
+        function updateSatResult(){
+            var cartTable=document.getElementsByClassName("cartTable")[0];
+            var rows=cartTable.rows;
+            var priceSum=0.0;
+            var numSum=0;
+
+
+            var tmpcheckedSum=0;
+            var prodImgDiv=document.getElementsByClassName("prod_imgs_container")[0];
+            prodImgDiv.innerHTML="";
+
+
+            for(var i=1;i<rows.length-1;i++){
+                 if(rows[i].cells[0].getElementsByClassName("rowCheckbox")[0].checked==true){
+
+
+                     var num=parseInt(rows[i].cells[3].innerText);
+                     var pri=parseFloat(rows[i].cells[4].innerText.replace(currencyUnit,""));
+                     priceSum+=parseFloat(num*pri);
+                     numSum+=num;
+
+
+                     tmpcheckedSum++;
+                     var summaryImg=document.createElement("div");
+                     summaryImg.className="summaryImg";
+                     var imgsrc=rows[i].cells[1].childNodes[0].getAttribute("src");
+                     summaryImg.style.backgroundImage="url('"+imgsrc+"')";
+
+                     var summaryBtn=document.createElement("p");
+                     summaryBtn.className="prod_cancel_btn";
+                     summaryBtn.setAttribute("rowIndex",i);
+                     summaryBtn.onclick=function()
+                     {
+                         var tmpIdx=parseInt(this.getAttribute("rowIndex"));
+                         rows[tmpIdx].cells[0].getElementsByClassName("rowCheckbox")[0].checked=false;
+                         this.parentElement.removeChild((this));
+                         updateSatResult();
+                     }
+
+                     summaryImg.append(summaryBtn);
+                     prodImgDiv.append(summaryImg);
+
+
+
+
+                 }
+            }
+
+            document.getElementById("totalAmountSpan").innerHTML=numSum;
+            document.getElementById("totalPriceSpan").innerHTML=priceSum.toFixed(2);
+
+            if(tmpcheckedSum<1){
+                setSummarySt(_CLOSE);
+
+            }
+
+
+
+
+
+
+
+
+        }
+
+        function addNewRow(checked,imgStr,desStr,amtNum,priceNum){
+
+            var cartTable=document.getElementsByClassName("cartTable")[0];
+            var newRow=cartTable.insertRow(cartTable.rows.length-1);
+
+            var newCell1=newRow.insertCell(0);
+            rowNum++;
+
+            if(checked){
+                newCell1.innerHTML = '<th><input type="checkbox" class="rowCheckbox" checked="checked"></th>';
+                checkedNum++;
+            }
+            else
+            {
+                newCell1.innerHTML = '<th><input type="checkbox" class="rowCheckbox" ></th>';
+            }
+
+            var newCell2=newRow.insertCell(1);
+            newCell2.innerHTML="<img src="+imgStr+" class='rowImg'>";
+
+            var newCell3=newRow.insertCell(2);
+            newCell3.innerHTML=desStr;
+
+            var newCell4=newRow.insertCell(3);
+            newCell4.innerHTML="<input type='button' value='-' class='rowAmtBtn'/> <span class='rowAmountSpan'>"+amtNum+"</span> <input type='button' value='+' class='rowAmtBtn'/>";
+
+            var newCell5=newRow.insertCell(4);
+            newCell5.innerHTML=currencyUnit+"<span class='rowPriceSpan'>"+(priceNum).toFixed(2)+"</span>";
+
+            var newCell6=newRow.insertCell(5);
+            newCell6.innerHTML=currencyUnit+"<span class='rowTotalSpan'>"+(priceNum*amtNum).toFixed(2)+"</span>";
+
+        }
+
+    </script>
+
+</head>
+<body>
+<h1 style="text-align:center;">购物车</h1>
+<table class="cartTable">
+    <tr style="background-color:rgb(238,238,238);">
+        <th><input class="allCheckbox" type="checkbox" >全选</th>
+        <th>图片</th>
+        <th>描述</th>
+        <th>数量</th>
+        <th>单价</th>
+        <th>小计</th>
+    </tr>
+
+    <tr  style="background-color:rgb(238,238,238);">
+        <td colspan="6">
+            <div class="prod_imgs_container" style="background-color:white;" >
+
+
+            </div>
+
+            <div style="height:50px;line-height: 50px; " >
+                <div id="btmLeftDiv" style="float:left; margin:10px;">
+                    <input class="allCheckbox" type="checkbox">
+                    <span>全选</span>
+                    <span class="resetBtn" onclick="resetTable()" style="margin-left:10px;" >重置</span>
+                </div>
+                <div id="btmRightDiv" style="float:right; margin:10px">
+                    <span >已选商品<span id="totalAmountSpan"></span>件</span>
+                    <img class="summaryBtn" src="./images/up.png" style="margin:auto 10px;" state="close">
+                    <span style="margin-left:10px;">合计人民币<span id="totalPriceSpan"></span>元</span>
+                </div>
+            </div>
+        </td>
+
+    </tr>
+
+
+</table>
+
+
+</body>
+</html>

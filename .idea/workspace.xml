@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/JS_Task3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/up.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +37,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html">
+        <entry file="file://$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/JS_Task3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1730">
-              <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+            <state relative-caret-position="175">
+              <caret line="124" column="29" lean-forward="true" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+              <folding>
+                <element signature="e#5310#5929#0" />
+                <element signature="e#5965#6446#0" />
+                <element signature="e#6479#7250#0" />
+                <element signature="e#6381#7098#0" />
+                <element signature="e#7133#8005#0" />
+                <element signature="e#8853#10140#0" />
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,10 +74,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tb</find>
-      <find>hover</find>
-      <find>home</find>
-      <find>bdDiv</find>
       <find>spaci</find>
       <find>border</find>
       <find>height</find>
@@ -73,6 +91,19 @@
       <find>windowWidth</find>
       <find>snowDiv.index</find>
       <find>width</find>
+      <find>onchange</find>
+      <find>allCheck</find>
+      <find>￥</find>
+      <find>this</find>
+      <find>btmCheckboxDiv</find>
+      <find>totalPriceDiv</find>
+      <find>totalAmountDiv</find>
+      <find>rowAmtBtm</find>
+      <find>parseFloat</find>
+      <find>checkedNum</find>
+      <find>summary</find>
+      <find>setSummarySt</find>
+      <find>mark</find>
     </findStrings>
     <replaceStrings>
       <replace>td</replace>
@@ -87,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer6.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19_Demo.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS20_Demo.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19&amp;JS20_Answer1.html" />
@@ -138,11 +168,12 @@
         <option value="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-1.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html" />
+        <option value="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/JS_Task3.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="739" />
+    <option name="width" value="347" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -197,7 +228,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -207,11 +238,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS33" />
-      <recent name="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2" />
@@ -233,10 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JS_Task2-2.html">
-    <configuration name="JS310_Demo2_SlideShow.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS310&amp;JS311/JS310_Demo2_SlideShow.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.JS_Task3.html">
     <configuration name="JS314_Demo3_Event.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS314/JS314_Demo3_Event.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -249,13 +277,16 @@
     <configuration name="JS_Task2-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="JS_Task3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JS/JS_Tasks/JS_Task3/JS_Task3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.JS_Task3.html" />
         <item itemvalue="JavaScript Debug.JS_Task2-2.html" />
         <item itemvalue="JavaScript Debug.JS_Task2-1.html" />
         <item itemvalue="JavaScript Debug.JS39_Demo_Scope.html" />
         <item itemvalue="JavaScript Debug.JS314_Demo3_Event.html" />
-        <item itemvalue="JavaScript Debug.JS310_Demo2_SlideShow.html" />
       </list>
     </recent_temporary>
   </component>
@@ -300,12 +331,13 @@
       <workItem from="1556906565629" duration="9657000" />
       <workItem from="1557111924706" duration="26913000" />
       <workItem from="1557445533251" duration="14169000" />
-      <workItem from="1557710453989" duration="21821000" />
+      <workItem from="1557710453989" duration="51338000" />
+      <workItem from="1558446376427" duration="6088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208357000" />
+    <option name="totallyTimeSpent" value="243962000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -317,10 +349,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="609" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.22466423" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49693877" weight="0.32512316" />
       <window_info id="Structure" order="1" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
       <window_info id="Favorites" order="2" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -339,32 +371,9 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3292683" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32816538" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3292683" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.23097463" />
-      <window_info id="Structure" order="1" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
-      <window_info id="Favorites" order="2" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25408164" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49815497" weight="0.3010204" />
-      <window_info anchor="bottom" x="846" y="435" width="834" height="179" id="Terminal" order="7" sideWeight="0.49815497" weight="0.23571429" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501845" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.327551" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.327551" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3292683" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.3292683" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -413,13 +422,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer6.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -738,8 +740,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1730">
+        <state relative-caret-position="2195">
           <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/JS_Task3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="124" column="29" lean-forward="true" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+          <folding>
+            <element signature="e#5310#5929#0" />
+            <element signature="e#5965#6446#0" />
+            <element signature="e#6479#7250#0" />
+            <element signature="e#6381#7098#0" />
+            <element signature="e#7133#8005#0" />
+            <element signature="e#8853#10140#0" />
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
