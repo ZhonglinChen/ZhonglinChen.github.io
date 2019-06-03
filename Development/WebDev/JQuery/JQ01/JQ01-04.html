@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transform of jQuery and DOM</title>
+    <script src="../jquery-3.4.1.js"></script>
+    <script>
+        $(function(){
+            //DOM to jQuery
+            var divDOM=document.getElementById("mydiv");
+            console.log(divDOM.innerHTML);
+
+            var divJQuery=$(divDOM);//DOM to jQuery
+            console.log(divJQuery.html());
+
+
+            //jQuery to DOM
+            var divJQuery=$("#mydiv"); //actually is a array with only a element
+
+            //method 1  array index
+            var divDOM=divJQuery[0];
+            console.log(divDOM.innerHTML);
+
+            //method 2 get func
+            var divDOM=divJQuery.get(0);
+            console.log(divDOM.innerHTML);
+
+        });
+
+    </script>
+</head>
+<body>
+
+    <div id="mydiv">my div</div>
+</body>
+</html>

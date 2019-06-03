@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+
+        .my-navbar{
+            padding-bottom:0;
+        }
+
+
+        .my-navbar .nav-link {
+            color: white !important;
+            border-bottom:solid 3px transparent;
+        }
+
+
+        .my-navbar .dropdown-menu {
+            background-color: rgb(52, 58, 64);
+            border: none;
+        }
+
+        @media (max-width: 767px) {
+            .my-navbar .dropdown-menu {
+                border-bottom: solid 3px red;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+
+            }
+        }
+
+        @media (min-width: 767px) {
+            .my-navbar .dropdown-menu {
+
+                border-top: solid 3px lightgray;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                margin-top: -3px;
+                position: relative;
+                z-index: 2;
+
+            }
+        }
+
+
+
+         .my-navbar .active .nav-link{
+            border-bottom-color: greenyellow;
+        }
+
+        .my-navbar .dropdown-item {
+            color:white;
+            border-bottom:solid 3px transparent;
+        }
+
+        .my-navbar .nav-link:hover, .dropdown-item:hover {
+            background-color: rgb(52, 58, 64);
+            border-bottom-color:pink;
+            position:relative;
+            z-index:3;
+
+        }
+
+        .my-navbar .dropdown-divider{
+            border-color:lawngreen;
+            border-width: 3px;
+            margin:0;
+        }
+
+
+
+
+    </style>
+</head>
+<body style="background-color:black;">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<nav class="navbar my-navbar navbar-expand-md  navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNew"
+            aria-controls="navbarNew" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarNew">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">
+                    Home<span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDepartments" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Departments
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDepartments">
+                    <a class="dropdown-item" href="#">Science</a>
+                    <a class="dropdown-item" href="#">Engineering</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" >
+                    Add New
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarManagers" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Managers
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarManagers">
+                    <a class="dropdown-item" href="#">View Managers</a>
+                    <a class="dropdown-item" href="#">Add New</a>
+                </div>
+
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarStaff" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Staff
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarManagers">
+                    <a class="dropdown-item" href="#">View Staff</a>
+                    <a class="dropdown-item" href="#">Add New</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Bulk Upload</a>
+
+                </div>
+
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarHR" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    HR
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarManagers">
+                    <a class="dropdown-item" href="#">View HR</a>
+                    <a class="dropdown-item" href="#">Add New</a>
+                </div>
+
+            </li>
+
+
+
+        </ul>
+
+        <div class="navbar-nav ml-0">
+            <div class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle " href="#" role="button" id="dropdownSignin"
+                   data-toggle="dropdown">
+                    Sign up as
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Guest1</a>
+                    <a class="dropdown-item" href="#">Guest2</a>
+                    <a class="dropdown-item" href="#">Guest3</a>
+                </div>
+
+            </div>
+
+            <a href="#" class="nav-item nav-link justify-content-end" role="button">Logout</a>
+        </div>
+    </div>
+
+
+</nav>
+
+</body>
+</html>
