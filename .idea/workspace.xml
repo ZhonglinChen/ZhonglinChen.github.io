@@ -2,241 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-04.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-05.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Github/helloworld.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Github/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyCharm/Useful Key Shortcuts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS10/CSS10_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS10/CSS10_Note" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS10/CSS10_Practice.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS10/CSS10_Practice2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS10/searchicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS11/CSS11_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS12/CSS12_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS12/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS13/CSS13_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS14/CSS14_Practice2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Demo1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Demo2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Demo3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Demo4_Position_ZIndex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Demo_Menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Practice_Q2_Menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/CSS15_Practice_Q2_Menu2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS15/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS2/CSS2_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS2/CSS2_Notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS2/CSS2_Practice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS3/CSS3_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS3/CSS3_Notes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS3/CSS3_Practice1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS3/CSS3_Practice2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS3/CSS3_Practice3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS3/CSS3_Practice4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS4/CSS4_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS4/CSS4_Notes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS4/CSS4_Practice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS4/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS5/CSS5_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS5/CSS5_Notes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS5/CSS5_Practice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6 Practice.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Notes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS6/CSS6_Practice6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS7/CSS7_Notes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS7/CSS7_Practice.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS7/CSS7_Practice1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS7/CSS7_Practice2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS7/CSS7_Practice3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS7/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS8/CSS8_Practice1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS8/CSS8_Practice2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS9/CSS9_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS9/CSS9_Practice.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS9/CSS9_Practice2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/CSS9/CSS9_Practice3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/CSS/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task1/Task1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task1/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task1/style1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task1/task1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/Task2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/pic1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/style2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/task2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task2/th.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task3/style3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task3/task3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task3/team.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task3/team1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task3/team3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task3/team_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/service1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/service2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/service3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/service4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/style4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task4/task4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/move-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/style5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/task5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/HTML+CSS/Task5/team1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS1&amp;JS2/JS1_Demo_Intro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS11&amp;JS12.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS11&amp;JS12_Answer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS11_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS11&amp;JS12/JS12_Demo_Date.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS14/JS14_Answers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS14/JS14_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17&amp;JS18_Answer6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS17_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS17&amp;JS18/JS18_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19&amp;JS20.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19&amp;JS20_Answer1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19&amp;JS20_Answer2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19&amp;JS20_Answer3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS19_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS19&amp;JS20/JS20_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS3&amp;JS4.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS3&amp;JS4_Practice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS3_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS3&amp;JS4/JS4_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS31_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS31_Script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Demo1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Demo2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Script1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/JS32_Script2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/img01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS31&amp;JS32/img02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310JS311_Falling Snow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310_Demo1_Timer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310_Demo2_SlideShow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS311_Demo2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS312&amp;JS313/JS312&amp;JS313_Demo_Array_Advanced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS312&amp;JS313/JS313_Demo_ElementSize.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS314/JS314_Demo1_Event Bubble.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS314/JS314_Demo2_Event Bonding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS314/JS314_Demo3_Event.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS33/JS33_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS33/img01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS33/img02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS33/img03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS33/img04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34&amp;JS35_Answer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34_Demo1_Get Elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS34_Demo2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS35_Demo1_For Loop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/JS35_Demo2_Nesting For Loop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/Notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS34&amp;JS35/snow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS36/JS36_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS36/JS36_Demo2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS37/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS37/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS37/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS37/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo1_Function.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS37/JS37_Demo2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo2_Arguments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS39_Demo_Scope.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS5&amp;JS6.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS5&amp;JS6_Practice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS5_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS5&amp;JS6/JS6_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS7&amp;JS8.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS7&amp;JS8_Practice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS7_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS7&amp;JS8/JS8_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS10_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS9&amp;JS10_Practice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS9&amp;JS10/JS9_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task1/JS_Task1-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task1/JS_Task1-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/JS_Task2-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/021.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/022.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/026.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/027.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/028.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/029.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/030.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2/img/031.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/JS_Task3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/p1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/p2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/p3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/p4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3/images/up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/JS0/JS0_Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject/2048/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject/2048/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject/2048/js/animation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject/2048/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject/2048/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject/2048/note" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject/Bilibili/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject/PublicPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject/Test.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -276,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-03.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -284,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-05.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -414,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -438,25 +203,11 @@
               <item name="Development" type="462c0819:PsiDirectoryNode" />
               <item name="WebDev" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="JQuery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="JQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="JQ01" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -575,12 +326,14 @@
       <workItem from="1559015897346" duration="18918000" />
       <workItem from="1559515192710" duration="6161000" />
       <workItem from="1559536745994" duration="3923000" />
-      <workItem from="1559547550211" duration="3320000" />
+      <workItem from="1559547550211" duration="4329000" />
+      <workItem from="1559604204025" duration="9000" />
+      <workItem from="1559604245283" duration="329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298744000" />
+    <option name="totallyTimeSpent" value="300091000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -593,9 +346,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.1965812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.2014652" />
       <window_info id="Structure" order="1" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
       <window_info id="Favorites" order="2" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1009,14 +761,14 @@
     <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-03.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-05.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
