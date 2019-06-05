@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="CS.sln" t="IncludeFlat" />
+      <e p="CS01" t="Include" />
+      <e p="CS01_Task1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CS01_Task1.csproj" t="IncludeRecursive" />
+        <e p="GuessNumber.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CS01_Task1.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TargetNumber.cs" t="Include" />
+      </e>
+      <e p="CS01_Task2" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CS01_Task2.csproj" t="IncludeRecursive" />
+        <e p="GuessNumber.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CS01_Task2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TargetNumber.cs" t="Include" />
+      </e>
+      <e p="CS01_Task3" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CS01_Task3.csproj" t="IncludeRecursive" />
+        <e p="GuessNumber.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CS01_Task3.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TargetNumber.cs" t="Include" />
+      </e>
+      <e p="CS02" t="Include" />
+      <e p="CS02_Task1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Car.cs" t="Include" />
+        <e p="CS02_Task1.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CS02_Task1.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Trunk.cs" t="Include" />
+        <e p="Vehicles.cs" t="Include" />
+      </e>
+      <e p="CS02_Task2" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Car.cs" t="Include" />
+        <e p="CarA.cs" t="Include" />
+        <e p="CarB.cs" t="Include" />
+        <e p="CS02_Task2.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CS02_Task2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="test.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../CS01/CS01-Task1/Program.cs" t="Include" />
+    <e p="$PROJECT_DIR$/../CS01/CS01-Task2/Program.cs" t="Include" />
+    <e p="$PROJECT_DIR$/../CS01/CS01-Task3/Program.cs" t="Include" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_CS.-2111922317.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5552981-d7d1-414d-a91d-a8a15169f1bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CS01_Task1/GuessNumber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS01_Task1/TargetNumber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS01_Task2/GuessNumber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS01_Task2/TargetNumber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS01_Task3/GuessNumber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS01_Task3/TargetNumber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS02_Task1/Car.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS02_Task1/Trunk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS02_Task1/Vehicles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS02_Task2/Car.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS02_Task2/CarA.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS02_Task2/CarB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS02_Task2/Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/.idea/.idea.CS01-Task1/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/.idea/.idea.CS01-Task1/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/.idea/.idea.CS01-Task1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/.idea/.idea.CS01-Task1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/.idea/.idea.CS01-Task1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/.idea/.idea.CS01-Task1/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/CS01-Task1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/GuessNumber.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/TargetNumber.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/bin/Debug/netcoreapp2.2/CS01-Task1.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/bin/Debug/netcoreapp2.2/CS01-Task1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/bin/Debug/netcoreapp2.2/CS01-Task1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/bin/Debug/netcoreapp2.2/CS01-Task1.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/bin/Debug/netcoreapp2.2/CS01-Task1.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/CS01-Task1.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/CS01-Task1.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/CS01-Task1.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/Debug/netcoreapp2.2/CS01-Task1.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/Debug/netcoreapp2.2/CS01-Task1.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/Debug/netcoreapp2.2/CS01-Task1.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/Debug/netcoreapp2.2/CS01-Task1.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/Debug/netcoreapp2.2/CS01-Task1.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/Debug/netcoreapp2.2/CS01-Task1.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/Debug/netcoreapp2.2/CS01-Task1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/Debug/netcoreapp2.2/CS01-Task1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task1/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/CS01-Task2.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/GuessNumber.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/TargetNumber.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/bin/Debug/netcoreapp2.2/CS01-Task2.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/bin/Debug/netcoreapp2.2/CS01-Task2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/bin/Debug/netcoreapp2.2/CS01-Task2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/bin/Debug/netcoreapp2.2/CS01-Task2.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/bin/Debug/netcoreapp2.2/CS01-Task2.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/CS01-Task2.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/CS01-Task2.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/CS01-Task2.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/Debug/netcoreapp2.2/CS01-Task2.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/Debug/netcoreapp2.2/CS01-Task2.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/Debug/netcoreapp2.2/CS01-Task2.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/Debug/netcoreapp2.2/CS01-Task2.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/Debug/netcoreapp2.2/CS01-Task2.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/Debug/netcoreapp2.2/CS01-Task2.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/Debug/netcoreapp2.2/CS01-Task2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/Debug/netcoreapp2.2/CS01-Task2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task2/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/CS01-Task3.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/GuessNumber.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/TargetNumber.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/bin/Debug/netcoreapp2.2/CS01-Task3.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/bin/Debug/netcoreapp2.2/CS01-Task3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/bin/Debug/netcoreapp2.2/CS01-Task3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/bin/Debug/netcoreapp2.2/CS01-Task3.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/bin/Debug/netcoreapp2.2/CS01-Task3.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/CS01-Task3.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/CS01-Task3.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/CS01-Task3.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/Debug/netcoreapp2.2/CS01-Task3.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/Debug/netcoreapp2.2/CS01-Task3.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/Debug/netcoreapp2.2/CS01-Task3.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/Debug/netcoreapp2.2/CS01-Task3.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/Debug/netcoreapp2.2/CS01-Task3.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/Debug/netcoreapp2.2/CS01-Task3.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/Debug/netcoreapp2.2/CS01-Task3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/Debug/netcoreapp2.2/CS01-Task3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/CS01-Task1/CS01-Task3/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/C#01/Task01.cs" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS02_Task1/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <marker date="1559701928943" expanded="true" signature="14:42" ph="/* 测试以上各类及其方法。 ... */" />
+                <marker date="1559701928943" expanded="true" signature="63:540" ph="{...}" />
+                <marker date="1559701928943" expanded="true" signature="83:538" ph="{...}" />
+                <marker date="1559701928943" expanded="true" signature="129:532" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS02_Task2/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <marker date="1559703159139" expanded="true" signature="14:25" ph="/* ... */" />
+                <marker date="1559703159139" expanded="true" signature="46:294" ph="{...}" />
+                <marker date="1559703159139" expanded="true" signature="66:292" ph="{...}" />
+                <marker date="1559703159139" expanded="true" signature="112:286" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS02_Task2/CarB.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <marker date="1559702368535" expanded="true" signature="35:533" ph="{...}" />
+                <marker date="1559702368535" expanded="true" signature="43:200" ph="/* 3. 定义一个CarB类，继承于Car，并具有两个自己的方法： ... */" />
+                <marker date="1559702368535" expanded="true" signature="227:531" ph="{...}" />
+                <marker date="1559702368535" expanded="true" signature="269:370" ph="{...}" />
+                <marker date="1559702368535" expanded="true" signature="406:516" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CS02_Task2/Test.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <marker date="1559703160461" expanded="true" signature="20:725" ph="{...}" />
+                <marker date="1559703160461" expanded="true" signature="84:723" ph="{...}" />
+                <marker date="1559703160461" expanded="true" signature="217:313" ph="{...}" />
+                <marker date="1559703160461" expanded="true" signature="340:717" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS02_Task2/CarA.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="5" selection-start-line="13" selection-start-column="2" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <marker date="1559702254484" expanded="true" signature="35:526" ph="{...}" />
+                <marker date="1559702254484" expanded="true" signature="42:197" ph="/* 2. 定义一个CarA类，继承于Car，并具有两个自己的方法： ... */" />
+                <marker date="1559702254484" expanded="true" signature="229:524" ph="{...}" />
+                <marker date="1559702254484" expanded="true" signature="271:372" ph="{...}" />
+                <marker date="1559702254484" expanded="true" signature="408:509" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS02_Task2/Car.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <marker date="1559702111650" expanded="true" signature="35:509" ph="{...}" />
+                <marker date="1559702111650" expanded="true" signature="42:177" ph="/* 1. 定义一个Car基类，并定义以下三个方法： ... */" />
+                <marker date="1559702111650" expanded="true" signature="198:507" ph="{...}" />
+                <marker date="1559702111650" expanded="true" signature="238:304" ph="{...}" />
+                <marker date="1559702111650" expanded="true" signature="337:401" ph="{...}" />
+                <marker date="1559702111650" expanded="true" signature="434:501" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS02_Task1/Trunk.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <marker date="1559701478675" expanded="true" signature="35:536" ph="{...}" />
+                <marker date="1559701478675" expanded="true" signature="42:168" ph="/* 3. 编写Truck 卡车 类继承于Vehicles类 ... */" />
+                <marker date="1559701478675" expanded="true" signature="200:534" ph="{...}" />
+                <marker date="1559701478675" expanded="true" signature="329:379" ph="{...}" />
+                <marker date="1559701478675" expanded="true" signature="412:527" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS02_Task1/Car.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <marker date="1559701196352" expanded="true" signature="35:546" ph="{...}" />
+                <marker date="1559701196352" expanded="true" signature="42:172" ph="/* 2. 编写Car 小汽车类，继承于Vehicles类 ... */" />
+                <marker date="1559701196352" expanded="true" signature="202:544" ph="{...}" />
+                <marker date="1559701196352" expanded="true" signature="327:379" ph="{...}" />
+                <marker date="1559701196352" expanded="true" signature="410:528" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS02_Task1/Vehicles.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <marker date="1559700774364" expanded="true" signature="35:707" ph="{...}" />
+                <marker date="1559700774364" expanded="true" signature="42:224" ph="/* 1. 定义一个名为Vehicles 交通工具 的基类 该类中应包含String类型的成员属性brand 商标 和color 颜色 ... */" />
+                <marker date="1559700774364" expanded="true" signature="250:705" ph="{...}" />
+                <marker date="1559700774364" expanded="true" signature="400:485" ph="{...}" />
+                <marker date="1559700774364" expanded="true" signature="512:577" ph="{...}" />
+                <marker date="1559700774364" expanded="true" signature="609:699" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CS02_Task2/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task2/CarA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task2/CarB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task2/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task1/Vehicles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task1/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task1/Trunk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS01_Task1/TargetNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS01_Task3/GuessNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS01_Task1/GuessNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS01_Task3/TargetNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task1/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS01_Task2/GuessNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS01_Task2/TargetNumber.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CS01_Task1/Program.cs" />
+        <option value="$PROJECT_DIR$/CS01_Task3/Program.cs" />
+        <option value="$PROJECT_DIR$/CS02_Task1/Vehicles.cs" />
+        <option value="$PROJECT_DIR$/CS02_Task1/Car.cs" />
+        <option value="$PROJECT_DIR$/CS02_Task1/Trunk.cs" />
+        <option value="$PROJECT_DIR$/CS02_Task1/Program.cs" />
+        <option value="$PROJECT_DIR$/CS02_Task2/Car.cs" />
+        <option value="$PROJECT_DIR$/CS02_Task2/CarA.cs" />
+        <option value="$PROJECT_DIR$/CS02_Task2/CarB.cs" />
+        <option value="$PROJECT_DIR$/CS02_Task2/Program.cs" />
+        <option value="$PROJECT_DIR$/CS02_Task2/test.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.CS/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.CS/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS02" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS02" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS02_Task1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS02" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS02_Task2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/CS02_Task2/bin/Debug/netcoreapp2.2/CS02_Task2.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS02_Task2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CS02_Task2/CS02_Task2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5552981-d7d1-414d-a91d-a8a15169f1bc" name="Default Changelist" comment="" />
+      <created>1559698980685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559698980685</updated>
+      <workItem from="1559698982175" duration="3473000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3473000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13614164" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Unit Tests" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Build" order="6" side_tool="true" weight="0.32905984" />
+      <window_info anchor="right" id="Run" order="7" side_tool="true" visible="true" weight="0.32905984" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CS/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS01_Task1/GuessNumber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559699203459" expanded="true" signature="35:1054" ph="{...}" />
+            <marker date="1559699203459" expanded="true" signature="66:1052" ph="{...}" />
+            <marker date="1559699203459" expanded="true" signature="136:1024" ph="{...}" />
+            <marker date="1559699203459" expanded="true" signature="307:802" ph="{...}" />
+            <marker date="1559699203459" expanded="true" signature="450:600" ph="{...}" />
+            <marker date="1559699203459" expanded="true" signature="600:787" ph="{...}" />
+            <marker date="1559699203459" expanded="true" signature="838:974" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS01_Task1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS01_Task1/TargetNumber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559699203448" expanded="true" signature="20:250" ph="{...}" />
+            <marker date="1559699203448" expanded="true" signature="52:248" ph="{...}" />
+            <marker date="1559699203448" expanded="true" signature="106:163" ph="{...}" />
+            <marker date="1559699203448" expanded="true" signature="194:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CS01/CS01-Task2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS01_Task2/GuessNumber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559700259907" expanded="true" signature="35:1532" ph="{...}" />
+            <marker date="1559700259907" expanded="true" signature="66:1530" ph="{...}" />
+            <marker date="1559700259907" expanded="true" signature="136:1023" ph="{...}" />
+            <marker date="1559700259907" expanded="true" signature="306:801" ph="{...}" />
+            <marker date="1559700259907" expanded="true" signature="449:599" ph="{...}" />
+            <marker date="1559700259907" expanded="true" signature="599:786" ph="{...}" />
+            <marker date="1559700259907" expanded="true" signature="837:973" ph="{...}" />
+            <marker date="1559700259907" expanded="true" signature="1079:1502" ph="{...}" />
+            <marker date="1559700259907" expanded="true" signature="1226:1464" ph="{...}" />
+            <marker date="1559700259907" expanded="true" signature="1381:1450" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS01_Task2/TargetNumber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559700259917" expanded="true" signature="20:271" ph="{...}" />
+            <marker date="1559700259917" expanded="true" signature="52:269" ph="{...}" />
+            <marker date="1559700259917" expanded="true" signature="106:189" ph="{...}" />
+            <marker date="1559700259917" expanded="true" signature="220:263" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CS01/CS01-Task3/Program.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS01_Task3/GuessNumber.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS01_Task3/TargetNumber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559700353181" expanded="true" signature="35:588" ph="{...}" />
+            <marker date="1559700353181" expanded="true" signature="67:586" ph="{...}" />
+            <marker date="1559700353181" expanded="true" signature="234:277" ph="{...}" />
+            <marker date="1559700353181" expanded="true" signature="324:580" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS01_Task3/Program.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CS01/CS01-Task1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task1/Trunk.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <marker date="1559701478675" expanded="true" signature="35:536" ph="{...}" />
+            <marker date="1559701478675" expanded="true" signature="42:168" ph="/* 3. 编写Truck 卡车 类继承于Vehicles类 ... */" />
+            <marker date="1559701478675" expanded="true" signature="200:534" ph="{...}" />
+            <marker date="1559701478675" expanded="true" signature="329:379" ph="{...}" />
+            <marker date="1559701478675" expanded="true" signature="412:527" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task1/Car.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <marker date="1559701196352" expanded="true" signature="35:546" ph="{...}" />
+            <marker date="1559701196352" expanded="true" signature="42:172" ph="/* 2. 编写Car 小汽车类，继承于Vehicles类 ... */" />
+            <marker date="1559701196352" expanded="true" signature="202:544" ph="{...}" />
+            <marker date="1559701196352" expanded="true" signature="327:379" ph="{...}" />
+            <marker date="1559701196352" expanded="true" signature="410:528" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task1/Vehicles.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <marker date="1559700774364" expanded="true" signature="35:707" ph="{...}" />
+            <marker date="1559700774364" expanded="true" signature="42:224" ph="/* 1. 定义一个名为Vehicles 交通工具 的基类 该类中应包含String类型的成员属性brand 商标 和color 颜色 ... */" />
+            <marker date="1559700774364" expanded="true" signature="250:705" ph="{...}" />
+            <marker date="1559700774364" expanded="true" signature="400:485" ph="{...}" />
+            <marker date="1559700774364" expanded="true" signature="512:577" ph="{...}" />
+            <marker date="1559700774364" expanded="true" signature="609:699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <marker date="1559701928943" expanded="true" signature="14:42" ph="/* 测试以上各类及其方法。 ... */" />
+            <marker date="1559701928943" expanded="true" signature="63:540" ph="{...}" />
+            <marker date="1559701928943" expanded="true" signature="83:538" ph="{...}" />
+            <marker date="1559701928943" expanded="true" signature="129:532" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task2/Car.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1559702111650" expanded="true" signature="35:509" ph="{...}" />
+            <marker date="1559702111650" expanded="true" signature="42:177" ph="/* 1. 定义一个Car基类，并定义以下三个方法： ... */" />
+            <marker date="1559702111650" expanded="true" signature="198:507" ph="{...}" />
+            <marker date="1559702111650" expanded="true" signature="238:304" ph="{...}" />
+            <marker date="1559702111650" expanded="true" signature="337:401" ph="{...}" />
+            <marker date="1559702111650" expanded="true" signature="434:501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task2/CarA.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" selection-start-line="13" selection-start-column="2" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <marker date="1559702254484" expanded="true" signature="35:526" ph="{...}" />
+            <marker date="1559702254484" expanded="true" signature="42:197" ph="/* 2. 定义一个CarA类，继承于Car，并具有两个自己的方法： ... */" />
+            <marker date="1559702254484" expanded="true" signature="229:524" ph="{...}" />
+            <marker date="1559702254484" expanded="true" signature="271:372" ph="{...}" />
+            <marker date="1559702254484" expanded="true" signature="408:509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task2/CarB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1559702368535" expanded="true" signature="35:533" ph="{...}" />
+            <marker date="1559702368535" expanded="true" signature="43:200" ph="/* 3. 定义一个CarB类，继承于Car，并具有两个自己的方法： ... */" />
+            <marker date="1559702368535" expanded="true" signature="227:531" ph="{...}" />
+            <marker date="1559702368535" expanded="true" signature="269:370" ph="{...}" />
+            <marker date="1559702368535" expanded="true" signature="406:516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <marker date="1559703159139" expanded="true" signature="14:25" ph="/* ... */" />
+            <marker date="1559703159139" expanded="true" signature="46:294" ph="{...}" />
+            <marker date="1559703159139" expanded="true" signature="66:292" ph="{...}" />
+            <marker date="1559703159139" expanded="true" signature="112:286" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task2/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <marker date="1559703160461" expanded="true" signature="20:725" ph="{...}" />
+            <marker date="1559703160461" expanded="true" signature="84:723" ph="{...}" />
+            <marker date="1559703160461" expanded="true" signature="217:313" ph="{...}" />
+            <marker date="1559703160461" expanded="true" signature="340:717" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
