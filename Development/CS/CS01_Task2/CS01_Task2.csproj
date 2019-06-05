@@ -7,10 +7,4 @@
         <RootNamespace>CS01_Task2</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Compile Include="..\..\CS01\CS01-Task2\Program.cs">
-        <Link>Program.cs</Link>
-      </Compile>
-    </ItemGroup>
-
 </Project>

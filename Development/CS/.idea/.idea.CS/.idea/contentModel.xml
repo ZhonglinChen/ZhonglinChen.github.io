@@ -15,6 +15,7 @@
             </e>
           </e>
         </e>
+        <e p="Program.cs" t="Include" />
         <e p="TargetNumber.cs" t="Include" />
       </e>
       <e p="CS01_Task2" t="IncludeRecursive">
@@ -28,6 +29,7 @@
             </e>
           </e>
         </e>
+        <e p="Program.cs" t="Include" />
         <e p="TargetNumber.cs" t="Include" />
       </e>
       <e p="CS01_Task3" t="IncludeRecursive">
@@ -41,6 +43,7 @@
             </e>
           </e>
         </e>
+        <e p="Program.cs" t="Include" />
         <e p="TargetNumber.cs" t="Include" />
       </e>
       <e p="CS02" t="Include" />
@@ -77,9 +80,6 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="$PROJECT_DIR$/../CS01/CS01-Task1/Program.cs" t="Include" />
-    <e p="$PROJECT_DIR$/../CS01/CS01-Task2/Program.cs" t="Include" />
-    <e p="$PROJECT_DIR$/../CS01/CS01-Task3/Program.cs" t="Include" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_CS.-2111922317.00" t="ExcludeRecursive" />
   </component>

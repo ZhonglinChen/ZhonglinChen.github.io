@@ -5,10 +5,4 @@
         <TargetFramework>netcoreapp2.2</TargetFramework>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Compile Include="..\..\CS01\CS01-Task3\Program.cs">
-        <Link>Program.cs</Link>
-      </Compile>
-    </ItemGroup>
-
 </Project>
