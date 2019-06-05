@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5552981-d7d1-414d-a91d-a8a15169f1bc" name="Default Changelist" comment="" />
+    <list default="true" id="f5552981-d7d1-414d-a91d-a8a15169f1bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CS03_Task1/Bird.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS03_Task1/Eagle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS03_Task1/Magpie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS03_Task1/Penguin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS03_Task1/Test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS03_Task2/Circle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS03_Task2/Cylinder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS03_Task2/Dimensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS03_Task2/Sphere.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS03_Task2/Test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebDev/JQuery/JQ06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CS.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDev/JQuery/JQ01/JQ01-01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDev/JQuery/JQ01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDev/JQuery/JQ01/JQ01-02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDev/JQuery/JQ02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDev/JQuery/JQ01/JQ01-03.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDev/JQuery/JQ03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDev/JQuery/JQ01/JQ01-04.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDev/JQuery/JQ04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDev/JQuery/JQ01/JQ01-05.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDev/JQuery/JQ05.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,143 +32,95 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS02_Task1/Program.cs">
+        <entry file="file://$PROJECT_DIR$/CS03_Task2/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
-                <marker date="1559701928943" expanded="true" signature="14:42" ph="/* 测试以上各类及其方法。 ... */" />
-                <marker date="1559701928943" expanded="true" signature="63:540" ph="{...}" />
-                <marker date="1559701928943" expanded="true" signature="83:538" ph="{...}" />
-                <marker date="1559701928943" expanded="true" signature="129:532" ph="{...}" />
+                <marker date="1559778582754" expanded="true" signature="14:28" ph="/* ... */" />
+                <marker date="1559778582754" expanded="true" signature="50:213" ph="{...}" />
+                <marker date="1559778582754" expanded="true" signature="70:211" ph="{...}" />
+                <marker date="1559778582754" expanded="true" signature="116:205" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS02_Task2/Program.cs">
+        <entry file="file://$PROJECT_DIR$/CS03_Task2/Test.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="270">
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding>
-                <marker date="1559703159139" expanded="true" signature="14:25" ph="/* ... */" />
-                <marker date="1559703159139" expanded="true" signature="46:294" ph="{...}" />
-                <marker date="1559703159139" expanded="true" signature="66:292" ph="{...}" />
-                <marker date="1559703159139" expanded="true" signature="112:286" ph="{...}" />
+                <marker date="1559778562702" expanded="true" signature="6:66" ph="..." />
+                <marker date="1559778562702" expanded="true" signature="88:583" ph="{...}" />
+                <marker date="1559778562702" expanded="true" signature="171:581" ph="{...}" />
+                <marker date="1559778562702" expanded="true" signature="207:566" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS02_Task2/CarB.cs">
+        <entry file="file://$PROJECT_DIR$/CS03_Task2/Cylinder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
-                <marker date="1559702368535" expanded="true" signature="35:533" ph="{...}" />
-                <marker date="1559702368535" expanded="true" signature="43:200" ph="/* 3. 定义一个CarB类，继承于Car，并具有两个自己的方法： ... */" />
-                <marker date="1559702368535" expanded="true" signature="227:531" ph="{...}" />
-                <marker date="1559702368535" expanded="true" signature="269:370" ph="{...}" />
-                <marker date="1559702368535" expanded="true" signature="406:516" ph="{...}" />
+                <marker date="1559778311595" expanded="true" signature="20:428" ph="{...}" />
+                <marker date="1559778311595" expanded="true" signature="27:163" ph="/* 4. 定义一个类Cylinder继承于Dimensions， ... */" />
+                <marker date="1559778311595" expanded="true" signature="201:426" ph="{...}" />
+                <marker date="1559778311595" expanded="true" signature="264:297" ph="{...}" />
+                <marker date="1559778311595" expanded="true" signature="336:408" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CS02_Task2/Test.cs">
+        <entry file="file://$PROJECT_DIR$/CS03_Task2/Sphere.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <marker date="1559703160461" expanded="true" signature="20:725" ph="{...}" />
-                <marker date="1559703160461" expanded="true" signature="84:723" ph="{...}" />
-                <marker date="1559703160461" expanded="true" signature="217:313" ph="{...}" />
-                <marker date="1559703160461" expanded="true" signature="340:717" ph="{...}" />
+                <marker date="1559778205193" expanded="true" signature="20:363" ph="{...}" />
+                <marker date="1559778205193" expanded="true" signature="27:141" ph="/* 3. 定义一个类Sphere继承于Dimensions， ... */" />
+                <marker date="1559778205193" expanded="true" signature="177:361" ph="{...}" />
+                <marker date="1559778205193" expanded="true" signature="228:261" ph="{...}" />
+                <marker date="1559778205193" expanded="true" signature="300:355" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS02_Task2/CarA.cs">
+        <entry file="file://$PROJECT_DIR$/CS03_Task2/Circle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="5" selection-start-line="13" selection-start-column="2" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
-                <marker date="1559702254484" expanded="true" signature="35:526" ph="{...}" />
-                <marker date="1559702254484" expanded="true" signature="42:197" ph="/* 2. 定义一个CarA类，继承于Car，并具有两个自己的方法： ... */" />
-                <marker date="1559702254484" expanded="true" signature="229:524" ph="{...}" />
-                <marker date="1559702254484" expanded="true" signature="271:372" ph="{...}" />
-                <marker date="1559702254484" expanded="true" signature="408:509" ph="{...}" />
+                <marker date="1559777951898" expanded="true" signature="20:356" ph="{...}" />
+                <marker date="1559777951898" expanded="true" signature="27:140" ph="/* 2. 定义一个类Circle继承于Dimensions， ... */" />
+                <marker date="1559777951898" expanded="true" signature="176:354" ph="{...}" />
+                <marker date="1559777951898" expanded="true" signature="226:259" ph="{...}" />
+                <marker date="1559777951898" expanded="true" signature="298:348" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS02_Task2/Car.cs">
+        <entry file="file://$PROJECT_DIR$/CS03_Task2/Dimensions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="195">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding>
-                <marker date="1559702111650" expanded="true" signature="35:509" ph="{...}" />
-                <marker date="1559702111650" expanded="true" signature="42:177" ph="/* 1. 定义一个Car基类，并定义以下三个方法： ... */" />
-                <marker date="1559702111650" expanded="true" signature="198:507" ph="{...}" />
-                <marker date="1559702111650" expanded="true" signature="238:304" ph="{...}" />
-                <marker date="1559702111650" expanded="true" signature="337:401" ph="{...}" />
-                <marker date="1559702111650" expanded="true" signature="434:501" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS02_Task1/Trunk.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <marker date="1559701478675" expanded="true" signature="35:536" ph="{...}" />
-                <marker date="1559701478675" expanded="true" signature="42:168" ph="/* 3. 编写Truck 卡车 类继承于Vehicles类 ... */" />
-                <marker date="1559701478675" expanded="true" signature="200:534" ph="{...}" />
-                <marker date="1559701478675" expanded="true" signature="329:379" ph="{...}" />
-                <marker date="1559701478675" expanded="true" signature="412:527" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS02_Task1/Car.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <marker date="1559701196352" expanded="true" signature="35:546" ph="{...}" />
-                <marker date="1559701196352" expanded="true" signature="42:172" ph="/* 2. 编写Car 小汽车类，继承于Vehicles类 ... */" />
-                <marker date="1559701196352" expanded="true" signature="202:544" ph="{...}" />
-                <marker date="1559701196352" expanded="true" signature="327:379" ph="{...}" />
-                <marker date="1559701196352" expanded="true" signature="410:528" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS02_Task1/Vehicles.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <marker date="1559700774364" expanded="true" signature="35:707" ph="{...}" />
-                <marker date="1559700774364" expanded="true" signature="42:224" ph="/* 1. 定义一个名为Vehicles 交通工具 的基类 该类中应包含String类型的成员属性brand 商标 和color 颜色 ... */" />
-                <marker date="1559700774364" expanded="true" signature="250:705" ph="{...}" />
-                <marker date="1559700774364" expanded="true" signature="400:485" ph="{...}" />
-                <marker date="1559700774364" expanded="true" signature="512:577" ph="{...}" />
-                <marker date="1559700774364" expanded="true" signature="609:699" ph="{...}" />
+                <marker date="1559777769110" expanded="true" signature="6:66" ph="..." />
+                <marker date="1559777769110" expanded="true" signature="88:575" ph="{...}" />
+                <marker date="1559777769110" expanded="true" signature="95:262" ph="/* 1. 定义一个基类Dimensions， 有三个public成员变量。 ... */" />
+                <marker date="1559777769110" expanded="true" signature="291:573" ph="{...}" />
+                <marker date="1559777769110" expanded="true" signature="415:483" ph="{...}" />
+                <marker date="1559777769110" expanded="true" signature="521:567" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -159,19 +132,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CS03_Task2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS01_Task3/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task2/Dimensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task2/Circle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task2/Sphere.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS01_Task3/GuessNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task2/Cylinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS01_Task3/TargetNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task2/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS02_Task1/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS02_Task2/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS02_Task2/CarA.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS02_Task2/CarB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS02_Task2/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS02_Task1/Vehicles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task1/Bird.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS02_Task1/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task1/Magpie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS02_Task1/Trunk.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CS02_Task2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task1/Eagle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task1/Penguin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CS03_Task1/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS01_Task1/TargetNumber.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CS01_Task3/GuessNumber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS01_Task1/GuessNumber.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CS01_Task3/TargetNumber.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CS02_Task1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS01_Task2/GuessNumber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CS01_Task2/TargetNumber.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -189,6 +175,18 @@
         <option value="$PROJECT_DIR$/CS02_Task2/CarB.cs" />
         <option value="$PROJECT_DIR$/CS02_Task2/Program.cs" />
         <option value="$PROJECT_DIR$/CS02_Task2/test.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task1/Bird.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task1/Magpie.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task1/Eagle.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task1/Penguin.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task1/Test.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task1/Program.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task2/Dimensions.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task2/Circle.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task2/Sphere.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task2/Cylinder.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task2/Test.cs" />
+        <option value="$PROJECT_DIR$/CS03_Task2/Program.cs" />
       </list>
     </option>
   </component>
@@ -225,18 +223,6 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="CS01" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="CS01_Task1" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="CS01" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="CS01_Task2" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
               <item name="CS02" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -250,6 +236,23 @@
               <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
               <item name="CS02" type="24d0babc:SolutionExplorerModelNode" />
               <item name="CS02_Task2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS03" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS03" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS03_Task1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS03" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CS03_Task2" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -284,14 +287,14 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/CS02_Task2/bin/Debug/netcoreapp2.2/CS02_Task2.dll" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/CS03_Task2/bin/Debug/netcoreapp2.2/CS03_Task2.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS02_Task2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS03_Task2" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CS02_Task2/CS02_Task2.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CS03_Task2/CS03_Task2.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -312,12 +315,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559698980685</updated>
-      <workItem from="1559698982175" duration="3754000" />
+      <workItem from="1559698982175" duration="7375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3754000" />
+    <option name="totallyTimeSpent" value="7375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,6 +333,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13614164" />
@@ -339,7 +343,7 @@
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Unit Tests" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Performance Profiler" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
@@ -354,7 +358,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="Build" order="6" side_tool="true" weight="0.32905984" />
+      <window_info anchor="right" id="Build" order="6" side_tool="true" weight="0.30463982" />
       <window_info anchor="right" id="Run" order="7" side_tool="true" visible="true" weight="0.32905984" />
     </layout>
   </component>
@@ -466,9 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS01_Task3/Program.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CS01/CS01-Task1/Program.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -500,21 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS02_Task1/Vehicles.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <marker date="1559700774364" expanded="true" signature="35:707" ph="{...}" />
-            <marker date="1559700774364" expanded="true" signature="42:224" ph="/* 1. 定义一个名为Vehicles 交通工具 的基类 该类中应包含String类型的成员属性brand 商标 和color 颜色 ... */" />
-            <marker date="1559700774364" expanded="true" signature="250:705" ph="{...}" />
-            <marker date="1559700774364" expanded="true" signature="400:485" ph="{...}" />
-            <marker date="1559700774364" expanded="true" signature="512:577" ph="{...}" />
-            <marker date="1559700774364" expanded="true" signature="609:699" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CS02_Task1/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -524,21 +510,6 @@
             <marker date="1559701928943" expanded="true" signature="63:540" ph="{...}" />
             <marker date="1559701928943" expanded="true" signature="83:538" ph="{...}" />
             <marker date="1559701928943" expanded="true" signature="129:532" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS02_Task2/Car.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <marker date="1559702111650" expanded="true" signature="35:509" ph="{...}" />
-            <marker date="1559702111650" expanded="true" signature="42:177" ph="/* 1. 定义一个Car基类，并定义以下三个方法： ... */" />
-            <marker date="1559702111650" expanded="true" signature="198:507" ph="{...}" />
-            <marker date="1559702111650" expanded="true" signature="238:304" ph="{...}" />
-            <marker date="1559702111650" expanded="true" signature="337:401" ph="{...}" />
-            <marker date="1559702111650" expanded="true" signature="434:501" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -584,15 +555,219 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CS01_Task3/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <marker date="1559621812000" expanded="true" signature="35:1463" ph="{...}" />
+            <marker date="1559621812000" expanded="true" signature="55:1461" ph="{...}" />
+            <marker date="1559621812000" expanded="true" signature="101:1455" ph="{...}" />
+            <marker date="1559621812000" expanded="true" signature="173:1443" ph="{...}" />
+            <marker date="1559621812000" expanded="true" signature="241:1201" ph="{...}" />
+            <marker date="1559621812000" expanded="true" signature="1234:1428" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task1/Bird.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <marker date="1559776286126" expanded="true" signature="6:37" ph="..." />
+            <marker date="1559776286126" expanded="true" signature="59:256" ph="{...}" />
+            <marker date="1559776286126" expanded="true" signature="137:254" ph="{...}" />
+            <marker date="1559776286126" expanded="true" signature="178:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task1/Magpie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <marker date="1559776429279" expanded="true" signature="35:253" ph="{...}" />
+            <marker date="1559776429279" expanded="true" signature="135:251" ph="{...}" />
+            <marker date="1559776429279" expanded="true" signature="176:245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task1/Eagle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <marker date="1559776481495" expanded="true" signature="35:250" ph="{...}" />
+            <marker date="1559776481495" expanded="true" signature="133:248" ph="{...}" />
+            <marker date="1559776481495" expanded="true" signature="174:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task1/Penguin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <marker date="1559776592312" expanded="true" signature="35:265" ph="{...}" />
+            <marker date="1559776592312" expanded="true" signature="138:263" ph="{...}" />
+            <marker date="1559776592312" expanded="true" signature="179:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task2/Car.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1559702111650" expanded="true" signature="35:509" ph="{...}" />
+            <marker date="1559702111650" expanded="true" signature="42:177" ph="/* 1. 定义一个Car基类，并定义以下三个方法： ... */" />
+            <marker date="1559702111650" expanded="true" signature="198:507" ph="{...}" />
+            <marker date="1559702111650" expanded="true" signature="238:304" ph="{...}" />
+            <marker date="1559702111650" expanded="true" signature="337:401" ph="{...}" />
+            <marker date="1559702111650" expanded="true" signature="434:501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CS02_Task2/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <marker date="1559703160461" expanded="true" signature="20:725" ph="{...}" />
             <marker date="1559703160461" expanded="true" signature="84:723" ph="{...}" />
             <marker date="1559703160461" expanded="true" signature="217:313" ph="{...}" />
             <marker date="1559703160461" expanded="true" signature="340:717" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS02_Task1/Vehicles.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <marker date="1559700774364" expanded="true" signature="35:707" ph="{...}" />
+            <marker date="1559700774364" expanded="true" signature="42:224" ph="/* 1. 定义一个名为Vehicles 交通工具 的基类 该类中应包含String类型的成员属性brand 商标 和color 颜色 ... */" />
+            <marker date="1559700774364" expanded="true" signature="250:705" ph="{...}" />
+            <marker date="1559700774364" expanded="true" signature="400:485" ph="{...}" />
+            <marker date="1559700774364" expanded="true" signature="512:577" ph="{...}" />
+            <marker date="1559700774364" expanded="true" signature="609:699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task1/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <marker date="1559777182586" expanded="true" signature="6:73" ph="..." />
+            <marker date="1559777182586" expanded="true" signature="95:604" ph="{...}" />
+            <marker date="1559777182586" expanded="true" signature="224:602" ph="{...}" />
+            <marker date="1559777182586" expanded="true" signature="260:587" ph="{...}" />
+            <marker date="1559777182586" expanded="true" signature="508:555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <marker date="1559777199062" expanded="true" signature="14:38" ph="/* ... */" />
+            <marker date="1559777199062" expanded="true" signature="59:223" ph="{...}" />
+            <marker date="1559777199062" expanded="true" signature="79:221" ph="{...}" />
+            <marker date="1559777199062" expanded="true" signature="125:215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task2/Dimensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <marker date="1559777769110" expanded="true" signature="6:66" ph="..." />
+            <marker date="1559777769110" expanded="true" signature="88:575" ph="{...}" />
+            <marker date="1559777769110" expanded="true" signature="95:262" ph="/* 1. 定义一个基类Dimensions， 有三个public成员变量。 ... */" />
+            <marker date="1559777769110" expanded="true" signature="291:573" ph="{...}" />
+            <marker date="1559777769110" expanded="true" signature="415:483" ph="{...}" />
+            <marker date="1559777769110" expanded="true" signature="521:567" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task2/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <marker date="1559778562702" expanded="true" signature="6:66" ph="..." />
+            <marker date="1559778562702" expanded="true" signature="88:583" ph="{...}" />
+            <marker date="1559778562702" expanded="true" signature="171:581" ph="{...}" />
+            <marker date="1559778562702" expanded="true" signature="207:566" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1559778582754" expanded="true" signature="14:28" ph="/* ... */" />
+            <marker date="1559778582754" expanded="true" signature="50:213" ph="{...}" />
+            <marker date="1559778582754" expanded="true" signature="70:211" ph="{...}" />
+            <marker date="1559778582754" expanded="true" signature="116:205" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task2/Circle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1559777951898" expanded="true" signature="20:356" ph="{...}" />
+            <marker date="1559777951898" expanded="true" signature="27:140" ph="/* 2. 定义一个类Circle继承于Dimensions， ... */" />
+            <marker date="1559777951898" expanded="true" signature="176:354" ph="{...}" />
+            <marker date="1559777951898" expanded="true" signature="226:259" ph="{...}" />
+            <marker date="1559777951898" expanded="true" signature="298:348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task2/Cylinder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <marker date="1559778311595" expanded="true" signature="20:428" ph="{...}" />
+            <marker date="1559778311595" expanded="true" signature="27:163" ph="/* 4. 定义一个类Cylinder继承于Dimensions， ... */" />
+            <marker date="1559778311595" expanded="true" signature="201:426" ph="{...}" />
+            <marker date="1559778311595" expanded="true" signature="264:297" ph="{...}" />
+            <marker date="1559778311595" expanded="true" signature="336:408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS03_Task2/Sphere.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1559778205193" expanded="true" signature="20:363" ph="{...}" />
+            <marker date="1559778205193" expanded="true" signature="27:141" ph="/* 3. 定义一个类Sphere继承于Dimensions， ... */" />
+            <marker date="1559778205193" expanded="true" signature="177:361" ph="{...}" />
+            <marker date="1559778205193" expanded="true" signature="228:261" ph="{...}" />
+            <marker date="1559778205193" expanded="true" signature="300:355" ph="{...}" />
           </folding>
         </state>
       </provider>

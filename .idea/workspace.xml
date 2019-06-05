@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ06.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Development/CS/.idea/.idea.CS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Development/CS/.idea/.idea.CS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-01.html" beforeDir="false" afterPath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-02.html" beforeDir="false" afterPath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-03.html" beforeDir="false" afterPath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-04.html" beforeDir="false" afterPath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-05.html" beforeDir="false" afterPath="$PROJECT_DIR$/Development/WebDev/JQuery/JQ05.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +37,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-04.html">
+        <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ04.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
@@ -39,7 +46,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-03.html">
+        <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ03.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
@@ -47,11 +54,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-05.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ05.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="240">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ06.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -114,8 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebDev/JS/JS38/JS38_Demo.html" />
-        <option value="$PROJECT_DIR$/WebDev/JS/JS38/JS38_Demo2_Arguments.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS39/JS39_Demo_Scope.html" />
         <option value="$PROJECT_DIR$/WebDev/JS/JS38&amp;JS39/JS38_Demo2_Arguments.html" />
         <option value="$PROJECT_DIR$/English/UsefulPhrases.html" />
@@ -165,6 +179,8 @@
         <option value="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-04.html" />
         <option value="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-03.html" />
         <option value="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-05.html" />
+        <option value="$PROJECT_DIR$/Development/WebDev/JQuery/JQ01-05.html" />
+        <option value="$PROJECT_DIR$/Development/WebDev/JQuery/JQ06.html" />
       </list>
     </option>
   </component>
@@ -180,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,11 +220,17 @@
               <item name="Development" type="462c0819:PsiDirectoryNode" />
               <item name="WebDev" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="JQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,19 +246,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Development/WebDev/JQuery" />
+      <recent name="$PROJECT_DIR$/Development/WebDev" />
+      <recent name="$PROJECT_DIR$/Development" />
+      <recent name="$PROJECT_DIR$/Tools" />
+      <recent name="$PROJECT_DIR$/WebDev/JQuery" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WebDev/BS6" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task3" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks/JS_Task2" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS_Tasks" />
       <recent name="$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Development/WebDev" />
-      <recent name="$PROJECT_DIR$/Development" />
-      <recent name="$PROJECT_DIR$/Tools" />
-      <recent name="$PROJECT_DIR$/WebDev/JQuery" />
-      <recent name="$PROJECT_DIR$/WebDev/JQuery/JQ01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -250,17 +273,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JQ01-05.html">
+  <component name="RunManager" selected="JavaScript Debug.JQ06.html">
     <configuration name="BS6_Practice1_Modal.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/Bootstrap/BS6/BS6_Practice1_Modal.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="BS6_Practice2_Carousel.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/Bootstrap/BS6/BS6_Practice2_Carousel.html" useBuiltInWebServerPort="true">
+    <configuration name="JQ02.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/ZhonglinChen.github.io/Development/WebDev/JQuery/JQ02.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="JQ01-02.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/Development/WebDev/JQuery/JQ01/JQ01-02.html" useBuiltInWebServerPort="true">
+    <configuration name="JQ05.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/ZhonglinChen.github.io/Development/WebDev/JQuery/JQ05.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="JQ01-05.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/Development/WebDev/JQuery/JQ01/JQ01-05.html" useBuiltInWebServerPort="true">
+    <configuration name="JQ06.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/ZhonglinChen.github.io/Development/WebDev/JQuery/JQ06.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="JQuery01.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZhonglinChen.github.io/WebDev/JQuery/JQ01/JQuery01.html" useBuiltInWebServerPort="true">
@@ -268,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.JQ01-05.html" />
-        <item itemvalue="JavaScript Debug.JQ01-02.html" />
+        <item itemvalue="JavaScript Debug.JQ06.html" />
+        <item itemvalue="JavaScript Debug.JQ05.html" />
+        <item itemvalue="JavaScript Debug.JQ02.html" />
         <item itemvalue="JavaScript Debug.JQuery01.html" />
         <item itemvalue="JavaScript Debug.BS6_Practice1_Modal.html (1)" />
-        <item itemvalue="JavaScript Debug.BS6_Practice2_Carousel.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -329,11 +352,12 @@
       <workItem from="1559547550211" duration="4329000" />
       <workItem from="1559604204025" duration="9000" />
       <workItem from="1559604245283" duration="329000" />
+      <workItem from="1559709753588" duration="2568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300091000" />
+    <option name="totallyTimeSpent" value="302659000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -346,8 +370,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.2014652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.2039072" />
       <window_info id="Structure" order="1" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
       <window_info id="Favorites" order="2" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,7 +442,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebDev/JS/JS310&amp;JS311/JS310&amp;JS311_Answer.html" />
     <entry file="file://$PROJECT_DIR$/Development/WebDev/JS/JS34&amp;JS35/JS34&amp;JS35_Answer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -723,7 +747,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/Basis.js" />
-    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-01.html">
+    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
@@ -744,31 +768,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-02.html">
+    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ02.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-04.html">
+    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ04.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-03.html">
+    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ03.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ01/JQ01-05.html">
+    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ05.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Development/WebDev/JQuery/JQ06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

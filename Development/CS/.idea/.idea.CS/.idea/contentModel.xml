@@ -78,6 +78,41 @@
         <e p="Program.cs" t="Include" />
         <e p="test.cs" t="Include" />
       </e>
+      <e p="CS03" t="Include" />
+      <e p="CS03_Task1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bird.cs" t="Include" />
+        <e p="CS03_Task1.csproj" t="IncludeRecursive" />
+        <e p="Eagle.cs" t="Include" />
+        <e p="Magpie.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CS03_Task1.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Penguin.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="test.cs" t="Include" />
+      </e>
+      <e p="CS03_Task2" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Circle.cs" t="Include" />
+        <e p="CS03_Task2.csproj" t="IncludeRecursive" />
+        <e p="Cylinder.cs" t="Include" />
+        <e p="Dimensions.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CS03_Task2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Sphere.cs" t="Include" />
+        <e p="test.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
