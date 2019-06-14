@@ -1,0 +1,11 @@
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/bin/Debug/netcoreapp2.2/CS05_Task3.deps.json
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/bin/Debug/netcoreapp2.2/CS05_Task3.runtimeconfig.json
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/bin/Debug/netcoreapp2.2/CS05_Task3.runtimeconfig.dev.json
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/bin/Debug/netcoreapp2.2/CS05_Task3.dll
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/bin/Debug/netcoreapp2.2/CS05_Task3.pdb
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/obj/Debug/netcoreapp2.2/CS05_Task3.csprojAssemblyReference.cache
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/obj/Debug/netcoreapp2.2/CS05_Task3.csproj.CoreCompileInputs.cache
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/obj/Debug/netcoreapp2.2/CS05_Task3.AssemblyInfoInputs.cache
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/obj/Debug/netcoreapp2.2/CS05_Task3.AssemblyInfo.cs
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/obj/Debug/netcoreapp2.2/CS05_Task3.dll
+/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS05_Task3/obj/Debug/netcoreapp2.2/CS05_Task3.pdb
