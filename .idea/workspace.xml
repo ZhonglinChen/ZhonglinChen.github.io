@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Cooking/黑椒鸡腿饭" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Development/WebDev/JS_Exercise/Time_Focus_Landing/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cooking/红烧鸡腿" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/红烧鸡腿" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cooking/菠菜炒鸡蛋" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/菠菜炒鸡蛋" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development/WebDev/JS_Exercise/Time_Focus_Landing/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Development/WebDev/JS_Exercise/Time_Focus_Landing/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development/WebDev/JS_Exercise/Time_Focus_Landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Development/WebDev/JS_Exercise/Time_Focus_Landing/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="d05dba68-966d-4a8c-9d52-b44ed4b85a3c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Development/WebDev/JS_Exercise/Time_Focus_Landing/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -204,17 +195,6 @@
               <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhonglinChen.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhonglinChen.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -348,11 +328,12 @@
       <workItem from="1560833402306" duration="286000" />
       <workItem from="1560921481943" duration="735000" />
       <workItem from="1561619575555" duration="303000" />
+      <workItem from="1561933977192" duration="254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316708000" />
+    <option name="totallyTimeSpent" value="316962000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -366,7 +347,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.16056167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.16239317" />
       <window_info id="Structure" order="1" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
       <window_info id="Favorites" order="2" sideWeight="0.50306123" side_tool="true" weight="0.24932249" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,8 +357,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49815497" weight="0.3010204" />
-      <window_info anchor="bottom" x="846" y="435" width="834" height="179" id="Terminal" order="7" sideWeight="0.49815497" weight="0.30408162" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501845" side_tool="true" visible="true" weight="0.30816326" />
+      <window_info active="true" anchor="bottom" x="846" y="435" width="834" height="179" id="Terminal" order="7" sideWeight="0.497558" visible="true" weight="0.30408162" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502442" side_tool="true" visible="true" weight="0.30408162" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.327551" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.327551" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -693,8 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Development/WebDev/JS_Exercise/Time_Focus_Landing/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
