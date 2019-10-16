@@ -692,17 +692,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS02_Task1/CS02_Task1.csproj",
+      "projectUniqueName": "/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/WebDev/Backend/CS/CS02_Task1/CS02_Task1.csproj",
       "projectName": "CS02_Task1",
-      "projectPath": "/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS02_Task1/CS02_Task1.csproj",
+      "projectPath": "/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/WebDev/Backend/CS/CS02_Task1/CS02_Task1.csproj",
       "packagesPath": "/Users/taikoo/.nuget/packages/",
-      "outputPath": "/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/CS/CS02_Task1/obj/",
+      "outputPath": "/Users/taikoo/Documents/GitHub/ZhonglinChen.github.io/Development/WebDev/Backend/CS/CS02_Task1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/taikoo/.config/NuGet/NuGet.Config"
+        "/Users/taikoo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
