@@ -5,14 +5,46 @@
 <head>
 	<title>Zhonglin Chen</title>
 	<style>
-		.randomResult {
+		.d-flex{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-items: center;
+
+
+		}
+
+
+		.randomResult, .randomResult *{ 
 			font-size: 3rem;
+
+			 vertical-align: middle	
+
+
+
+		}
+		.randomResult #sum{
+			font-size: 10rem;
 		}
 
 		#btn1 {
 			width: 300px;
 			height: 100px;
 			font-size: 2rem;
+
+
+		}
+
+
+
+		.resultTable {
+			width: 100%;
+		}
+
+		#random1Table,
+		#random2Table {
+			width: 50%;
+			margin: 5px auto;
 		}
 
 		.resultTable td {
@@ -23,83 +55,83 @@
 		let random1Count = new Array(7).fill(0);
 		let random2Count = new Array(7).fill(0);
 		let sumCount = new Array(13).fill(0);
-		
+
 		const getRandom = (start, end) => {
 			return Math.floor(Math.random() * (end - start + 1) + start);
 		}
 		const updateResult = () => {
-			let random1Table=document.getElementById("random1Table");
-			let random2Table=document.getElementById("random2Table");
-			let sumTable=document.getElementById("sumTable");
+			let random1Table = document.getElementById("random1Table");
+			let random2Table = document.getElementById("random2Table");
+			let sumTable = document.getElementById("sumTable");
 
 			let random1 = getRandom(1, 6);
-			updateCountTable(random1,random1Count,random1Table);
+			updateCountTable(random1, random1Count, random1Table);
 
-			
+
 
 			let random2 = getRandom(1, 6);
-			updateCountTable(random2,random2Count,random2Table);
-			
+			updateCountTable(random2, random2Count, random2Table);
 
-			updateCountTable(random1 + random2,sumCount,sumTable);
 
-			document.getElementById('result').innerText = `${random1} + ${random2} = ${random1 + random2} `;
+			updateCountTable(random1 + random2, sumCount, sumTable);
 
+			document.getElementById('result').innerText = `${random1} + ${random2} =`;
+			document.getElementById('sum').innerHTML=`${random1 + random2} `;
 
 		}
-		const updateCountTable = (randomNum,countArr,countTable) => {
-			let realLen=countArr.length-1;
-			countArr[randomNum-1]++;
+		const updateCountTable = (randomNum, countArr, countTable) => {
+			let realLen = countArr.length - 1;
+			countArr[randomNum - 1]++;
 			countArr[realLen]++;
-			countTable.rows[1].cells[randomNum-1].innerText=countArr[randomNum-1];
+			countTable.rows[1].cells[randomNum - 1].innerText = countArr[randomNum - 1];
 
-			for(let i=0;i<realLen;i++)
-			countTable.rows[2].cells[i].innerText=Math.floor(countArr[i]*100/countArr[realLen])+"%";
+			for (let i = 0; i < realLen; i++)
+				countTable.rows[2].cells[i].innerText = Math.floor(countArr[i] * 100 / countArr[realLen]) + "%";
 		}
 
 		window.onload = () => {
 
-		
+
 			document.getElementById('btn1').onclick = updateResult;
 
-			let random1Table=document.getElementById("random1Table");
-			let random2Table=document.getElementById("random2Table");
-			let sumTable=document.getElementById("sumTable");
+			let random1Table = document.getElementById("random1Table");
+			let random2Table = document.getElementById("random2Table");
+			let sumTable = document.getElementById("sumTable");
 
-			for(let i =0 ;i <3;i++){
-				random1Table.insertRow();	
+			for (let i = 0; i < 3; i++) {
+				random1Table.insertRow();
 				random2Table.insertRow();
 				sumTable.insertRow();
 			}
 
-			for(let i=0;i<6;i++){
+			for (let i = 0; i < 6; i++) {
 				let tmpCell;
-				tmpCell=random1Table.rows[0].insertCell();
-				tmpCell.innerText=i+1;
-				tmpCell=random1Table.rows[1].insertCell();
-				tmpCell.innerText=0;
-				tmpCell=random1Table.rows[2].insertCell();
-				tmpCell.innerText=`0%`;
+				tmpCell = random1Table.rows[0].insertCell();
+				tmpCell.innerText = i + 1;
+				tmpCell = random1Table.rows[1].insertCell();
+				tmpCell.innerText = 0;
+				tmpCell = random1Table.rows[2].insertCell();
+				tmpCell.innerText = `0%`;
 
-				
-				tmpCell=random2Table.rows[0].insertCell();
-				tmpCell.innerText=i+1;
-				tmpCell=random2Table.rows[1].insertCell();
-				tmpCell.innerText=0;
-				tmpCell=random2Table.rows[2].insertCell();
-				tmpCell.innerText=`0%`;
+
+				tmpCell = random2Table.rows[0].insertCell();
+				tmpCell.innerText = i + 1;
+				tmpCell = random2Table.rows[1].insertCell();
+				tmpCell.innerText = 0;
+				tmpCell = random2Table.rows[2].insertCell();
+				tmpCell.innerText = `0%`;
 			}
 
-	
 
-			for(let i=0;i<12;i++){
+
+			for (let i = 0; i < 12; i++) {
 				let tmpCell;
-				tmpCell=sumTable.rows[0].insertCell();
-				tmpCell.innerText=i+1;
-				tmpCell=sumTable.rows[1].insertCell();
-				tmpCell.innerText=0;
-				tmpCell=sumTable.rows[2].insertCell();
-				tmpCell.innerText=`0%`;
+				tmpCell = sumTable.rows[0].insertCell();
+				tmpCell.innerText = i + 1;
+				tmpCell = sumTable.rows[1].insertCell();
+				tmpCell.innerText = 0;
+				tmpCell = sumTable.rows[2].insertCell();
+				tmpCell.innerText = `0%`;
 
 			}
 
@@ -112,25 +144,26 @@
 </head>
 
 <body>
-	<p class="randomResult">
+	<div class="d-flex">
+		<p class="randomResult">
 
-		Result: <span id="result"> </span>
+			Result: <span id="result">  </span><span id="sum">	</span>
 
-	</p>
-	<p><button id="btn1">click me </button></p>
+		</p>
+		<p><button id="btn1">click me </button></p>
 
 
-	<table class="resultTable" id="random1Table">
-	
-	</table>
-	<table class="resultTable" id="random2Table">
-	
-	</table>
-	<table class="resultTable" id="sumTable">
-	
-	</table>
-	
+		<table class="resultTable" id="random1Table">
 
+		</table>
+		<table class="resultTable" id="random2Table">
+
+		</table>
+		<table class="resultTable" id="sumTable">
+
+		</table>
+
+	</div>
 
 </body>
 
