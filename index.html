@@ -21,8 +21,11 @@
 		return Math.floor(Math.random() * (end - start + 1) + start);
 	 }
 	 const updateResult = () =>{
+		let random1=getRandom(1,6);
+		let random2=getRandom(1,6);
 
-		document.getElementById('result').innerText=getRandom(1,6)+getRandom(1,6);
+
+		document.getElementById('result').innerText=`${random1} + ${random2} = ${random1+random2} `;
 	 }
 
 	 window.onload= ()=>{
@@ -33,7 +36,11 @@
 	</script>
 </head>
 <body>
-<p class="randomResult" > Result: <span id="result"> </span></p>
+<p class="randomResult" >
+	 
+	Result: <span id="result"> </span>
+
+</p>
 <p><button id="btn1">click me </button></p>
 
 
