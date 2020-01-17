@@ -2,26 +2,31 @@
 
 <html>
 <head>
-	<title>ZLC HomePage</title>
+	<title>Zhonglin Chen</title>
 	<script>
-	 let x= function(){
+	
 
-		 if(true){
-			 var l=0;
-		 }
-		 console.log(l);
+	 const getRandom= (start,end) =>{
+
+		return Math.floor(Math.random() * (end - start + 1) + start);
+	 }
+	 const updateResult = () =>{
+
+		document.getElementById('result').innerText=getRandom(1,6)+getRandom(1,6);
 	 }
 
-	 x();
+	 window.onload= ()=>{
+		document.getElementById('btn1').onclick= updateResult;
+
+	 }
 	
 	</script>
 </head>
 <body>
-	<!-- 
-		<p><a href="https://zhonglinchen.github.io/WebDev">Web Development</a></p>
-	<p><a href="https://zhonglinchen.github.io/Github">Github</a></p> 
--->
-<p><a href="https://zhonglinchen.github.io/Interview">Interview</a></p>
+<p > Result: <span id="result"> </span></p>
+<button id="btn1">click me </button>
+
+
 
 </body>
 </html>
