@@ -1,49 +1,137 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
 	<title>Zhonglin Chen</title>
 	<style>
-		.randomResult{
-			font-size:3rem;
+		.randomResult {
+			font-size: 3rem;
 		}
 
-		#btn1{
-			width:300px;
-			height:100px;
+		#btn1 {
+			width: 300px;
+			height: 100px;
 			font-size: 2rem;
+		}
+
+		.resultTable td {
+			border: 1px solid grey;
 		}
 	</style>
 	<script>
+		let random1Count = new Array(7).fill(0);
+		let random2Count = new Array(7).fill(0);
+		let sumCount = new Array(13).fill(0);
+		
+		const getRandom = (start, end) => {
+			return Math.floor(Math.random() * (end - start + 1) + start);
+		}
+		const updateResult = () => {
+			let random1Table=document.getElementById("random1Table");
+			let random2Table=document.getElementById("random2Table");
+			let sumTable=document.getElementById("sumTable");
 
-	 const getRandom= (start,end) =>{
+			let random1 = getRandom(1, 6);
+			updateCountTable(random1,random1Count,random1Table);
 
-		return Math.floor(Math.random() * (end - start + 1) + start);
-	 }
-	 const updateResult = () =>{
-		let random1=getRandom(1,6);
-		let random2=getRandom(1,6);
+			
+
+			let random2 = getRandom(1, 6);
+			updateCountTable(random2,random2Count,random2Table);
+			
+
+			updateCountTable(random1 + random2,sumCount,sumTable);
+
+			document.getElementById('result').innerText = `${random1} + ${random2} = ${random1 + random2} `;
 
 
-		document.getElementById('result').innerText=`${random1} + ${random2} = ${random1+random2} `;
-	 }
+		}
+		const updateCountTable = (randomNum,countArr,countTable) => {
+			let realLen=countArr.length-1;
+			countArr[randomNum-1]++;
+			countArr[realLen]++;
+			countTable.rows[1].cells[randomNum-1].innerText=countArr[randomNum-1];
 
-	 window.onload= ()=>{
-		document.getElementById('btn1').onclick= updateResult;
+			for(let i=0;i<realLen;i++)
+			countTable.rows[2].cells[i].innerText=Math.floor(countArr[i]*100/countArr[realLen])+"%";
+		}
 
-	 }
+		window.onload = () => {
+
+		
+			document.getElementById('btn1').onclick = updateResult;
+
+			let random1Table=document.getElementById("random1Table");
+			let random2Table=document.getElementById("random2Table");
+			let sumTable=document.getElementById("sumTable");
+
+			for(let i =0 ;i <3;i++){
+				random1Table.insertRow();	
+				random2Table.insertRow();
+				sumTable.insertRow();
+			}
+
+			for(let i=0;i<6;i++){
+				let tmpCell;
+				tmpCell=random1Table.rows[0].insertCell();
+				tmpCell.innerText=i+1;
+				tmpCell=random1Table.rows[1].insertCell();
+				tmpCell.innerText=0;
+				tmpCell=random1Table.rows[2].insertCell();
+				tmpCell.innerText=`0%`;
+
+				
+				tmpCell=random2Table.rows[0].insertCell();
+				tmpCell.innerText=i+1;
+				tmpCell=random2Table.rows[1].insertCell();
+				tmpCell.innerText=0;
+				tmpCell=random2Table.rows[2].insertCell();
+				tmpCell.innerText=`0%`;
+			}
+
 	
+
+			for(let i=0;i<12;i++){
+				let tmpCell;
+				tmpCell=sumTable.rows[0].insertCell();
+				tmpCell.innerText=i+1;
+				tmpCell=sumTable.rows[1].insertCell();
+				tmpCell.innerText=0;
+				tmpCell=sumTable.rows[2].insertCell();
+				tmpCell.innerText=`0%`;
+
+			}
+
+
+
+
+		}
+
 	</script>
 </head>
+
 <body>
-<p class="randomResult" >
-	 
-	Result: <span id="result"> </span>
+	<p class="randomResult">
 
-</p>
-<p><button id="btn1">click me </button></p>
+		Result: <span id="result"> </span>
 
+	</p>
+	<p><button id="btn1">click me </button></p>
+
+
+	<table class="resultTable" id="random1Table">
+	
+	</table>
+	<table class="resultTable" id="random2Table">
+	
+	</table>
+	<table class="resultTable" id="sumTable">
+	
+	</table>
+	
 
 
 </body>
+
 </html>
